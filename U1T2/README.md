@@ -1,6 +1,6 @@
-#Unidade 1 Trabalho 2
+# Unidade 1 Trabalho 2
 
-##Alunos:
+## Alunos:
 Maria Clara Moura de Freitas (20230093652)
 
 Poliana Ellen de Araújo (20240001289)
