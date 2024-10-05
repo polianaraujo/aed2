@@ -1,6 +1,6 @@
-Unidade 1 Trabalho 2
+#Unidade 1 Trabalho 2
 
-Alunos:
+##Alunos:
 Maria Clara Moura de Freitas (20230093652)
 
 Poliana Ellen de Araújo (20240001289)
@@ -8,14 +8,12 @@ Poliana Ellen de Araújo (20240001289)
 Objetivo Geral
 O trabalho proposto tem como objetivo reforçar conceitos de grafos utilizando a biblioteca NetworkX no Python. A ideia central é que vocês, individualmente ou em duplas, criem e manipulem uma rede de co-autoria a partir de dados reais extraídos da plataforma Scopus.
 
-Passo #01
-Exportação de Dados:
-● A partir da plataforma Scopus, vocês deverão extrair um arquivo .csv que contenha informações de artigos publicados por autores da UFRN. Esse conjunto pode ser filtrado por uma área específica (como saúde, engenharia, computação, etc.), por múltiplas áreas ou ainda por temas de interesse, como "machine learning", "inteligência artificial", "redes complexas", etc.
-● O arquivo .csv deve conter, no mínimo, as seguintes colunas:
+O primeiro passo da atividade consiste em acessar a plataforma Scopus para baixar um arquivo .csv contendo informações de artigos publicados por autores da Universidade Federal do Rio Grande do Norte (UFRN). O arquivo pode ser filtrado por uma área específica, múltiplas áreas ou temas de interesse. No nosso caso, foi escolhido a área COLOCAR A ÁREA QUE FOI ESCOLHIDA por ser um assunto mais recente e conter menos artigos publicados para facilitar a construção dos grafos. Além disso, o arquivo .csv tem que obrigatoriamente conter no mínimo as seguintes colunas: 
 ○ Nome dos autores
 ○ Identificadores únicos dos autores
 ○ Título do artigo
 ○ Ano de publicação
+
 
 Passo #02
 Criação da Rede de Co-Autoria:
