@@ -6,7 +6,10 @@
 
 ## Objetivo Geral:  
 Este trabalho teve como objetivo reforçar conceitos de grafos, utilizando a biblioteca NetworkX em Python, por meio da criação e manipulação de uma rede de co-autoria a partir de dados reais extraídos da plataforma
-[![Scopus](https://www.gov.br/observatorio/en/academic-programs/graduate-program-in-geophysics/images/scopus.png/@@images/9820b5f5-6fad-439e-a4cb-3399fcbf38f3.png)](https://www.scopus.com/home.uri?zone=header&origin=)
+<a href="https://www.scopus.com/home.uri?zone=header&origin=" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: Scopus; border-radius: 5px;">
+  Clique aqui para acessar o site
+</a>
+
 
 ## Desenvolvimento  
 
