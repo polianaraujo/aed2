@@ -5,9 +5,11 @@ Maria Clara Moura de Freitas (20230093652)
 
 Poliana Ellen de Araújo (20240001289)
 
-Objetivo Geral
+## Objetivo Geral:
+
 O trabalho proposto tem como objetivo reforçar conceitos de grafos utilizando a biblioteca NetworkX no Python. A ideia central é que vocês, individualmente ou em duplas, criem e manipulem uma rede de co-autoria a partir de dados reais extraídos da plataforma Scopus.
 
+## Desenvolvimento
 O primeiro passo da atividade consiste em acessar a plataforma Scopus para baixar um arquivo .csv contendo informações de artigos publicados por autores da Universidade Federal do Rio Grande do Norte (UFRN). O arquivo pode ser filtrado por uma área específica, múltiplas áreas ou temas de interesse. No nosso caso, foi escolhido a área COLOCAR A ÁREA QUE FOI ESCOLHIDA por ser um assunto mais recente e conter menos artigos publicados para facilitar a construção dos grafos. Além disso, o arquivo .csv tem que obrigatoriamente conter no mínimo as seguintes colunas: 
 ○ Nome dos autores
 ○ Identificadores únicos dos autores
