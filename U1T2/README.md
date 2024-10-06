@@ -11,9 +11,13 @@ O trabalho proposto tem como objetivo reforçar conceitos de grafos utilizando a
 
 ## Desenvolvimento
 O primeiro passo da atividade consiste em acessar a plataforma Scopus para baixar um arquivo .csv contendo informações de artigos publicados por autores da Universidade Federal do Rio Grande do Norte (UFRN). O arquivo pode ser filtrado por uma área específica, múltiplas áreas ou temas de interesse. No nosso caso, foi escolhido a área COLOCAR A ÁREA QUE FOI ESCOLHIDA por ser um assunto mais recente e conter menos artigos publicados para facilitar a construção dos grafos. Além disso, o arquivo .csv tem que obrigatoriamente conter no mínimo as seguintes colunas: 
+
 ○ Nome dos autores
+
 ○ Identificadores únicos dos autores
+
 ○ Título do artigo
+
 ○ Ano de publicação
 
 
