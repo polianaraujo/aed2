@@ -16,7 +16,7 @@ Obtemos um arquivo .csv na plataforma Scopus, contendo informações de artigos 
 - Título do artigo
 - Ano de publicação
 
-### Passo #02  
+### Passo #02 - Criação da rede de Co-Autoria
 Criação da Rede de Co-Autoria: Utilizando os dados extraídos, vocês deverão criar uma rede de co-autoria. Neste grafo, os vértices serão os autores e as arestas representarão a colaboração entre eles. Por exemplo, se um artigo foi escrito por três autores (A1, A2, A3), as arestas (A1, A2), (A1, A3), e (A2, A3) serão criadas no grafo.
 
 ### Passo #03  
