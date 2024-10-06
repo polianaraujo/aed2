@@ -6,7 +6,7 @@
 
 ## Objetivo Geral:  
 Este trabalho teve como objetivo reforçar conceitos de grafos, utilizando a biblioteca NetworkX em Python, por meio da criação e manipulação de uma rede de co-autoria a partir de dados reais extraídos da plataforma
-[Scopus](https://retractionwatch.com/wp-content/uploads/2023/12/Screenshot-2023-12-28-at-11.00.49%E2%80%AFAM.png)](https://www.scopus.com/home.uri?zone=header&origin=)
+[![Scopus](https://retractionwatch.com/wp-content/uploads/2023/12/Screenshot-2023-12-28-at-11.00.49%E2%80%AFAM.png)](https://www.scopus.com/home.uri?zone=header&origin=)
 
 ## Desenvolvimento  
 
