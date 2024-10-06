@@ -5,7 +5,8 @@
 - Poliana Ellen de Araújo (20240001289)
 
 ## Objetivo Geral:  
-Este trabalho teve como objetivo reforçar conceitos de grafos, utilizando a biblioteca NetworkX em Python, por meio da criação e manipulação de uma rede de co-autoria a partir de dados reais extraídos da plataforma Scopus.
+Este trabalho teve como objetivo reforçar conceitos de grafos, utilizando a biblioteca NetworkX em Python, por meio da criação e manipulação de uma rede de co-autoria a partir de dados reais extraídos da plataforma
+[![Scopus](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://www.scopus.com/home.uri?zone=header&origin=)
 
 ## Desenvolvimento  
 
