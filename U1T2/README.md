@@ -1,21 +1,20 @@
-# Unidade 1 Trabalho 2
+# Unidade 1 Trabalho 2 - Rede de Co-Autoria
 
 ## Alunos:  
 - Maria Clara Moura de Freitas (20230093652)
 - Poliana Ellen de Araújo (20240001289)
 
 ## Objetivo Geral:  
-O trabalho proposto tem como objetivo reforçar conceitos de grafos utilizando a biblioteca NetworkX no Python. A ideia central é que vocês, individualmente ou em duplas, criem e manipulem uma rede de co-autoria a partir de dados reais extraídos da plataforma Scopus.
+Este trabalho teve como objetivo reforçar conceitos de grafos, utilizando a biblioteca NetworkX em Python, por meio da criação e manipulação de uma rede de co-autoria a partir de dados reais extraídos da plataforma Scopus.
 
 ## Desenvolvimento  
 
-### Passo #01  
-O primeiro passo da atividade consiste em acessar a plataforma Scopus para baixar um arquivo .csv contendo informações de artigos publicados por autores da Universidade Federal do Rio Grande do Norte (UFRN). O arquivo pode ser filtrado por uma área específica, múltiplas áreas ou temas de interesse. No nosso caso, foi escolhido a área COLOCAR A ÁREA QUE FOI ESCOLHIDA por ser um assunto mais recente e conter menos artigos publicados para facilitar a construção dos grafos. Além disso, o arquivo .csv tem que obrigatoriamente conter no mínimo as seguintes colunas: 
-
-○ Nome dos autores  
-○ Identificadores únicos dos autores  
-○ Título do artigo  
-○ Ano de publicação  
+### Passo #01 - Extração dos Dados  
+Obtemos um arquivo .csv na plataforma Scopus, contendo informações de artigos publicados por autores da Universidade Federal do Rio Grande do Norte (UFRN). Os artigos selecionados estão dentro da área de Redes Neurais, e o arquivo contém as seguintes informações:  
+- Nome dos autores
+- Identificadores únicos dos autores
+- Título do artigo
+- Ano de publicação
 
 ### Passo #02  
 Criação da Rede de Co-Autoria: Utilizando os dados extraídos, vocês deverão criar uma rede de co-autoria. Neste grafo, os vértices serão os autores e as arestas representarão a colaboração entre eles. Por exemplo, se um artigo foi escrito por três autores (A1, A2, A3), as arestas (A1, A2), (A1, A3), e (A2, A3) serão criadas no grafo.
