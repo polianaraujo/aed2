@@ -34,9 +34,15 @@ Após a construção da rede de co-autoria, foram analisadas algumas caracterís
 
 - Grafo Completo de Coautoria: No grafo completo, é possível observar a densidade das conexões entre os autores. A densidade de um grafo refere-se à fração de todas as possíveis conexões entre os nós que realmente estão presentes. Se a densidade for alta, isso sugere que há uma grande quantidade de colaboração entre os autores da UFRN na área de Redes Neurais e Controle Inteligente, indicando uma comunidade bem conectada e cooperativa. Em contrapartida, uma densidade baixa pode indicar colaborações mais esporádicas e menos integradas entre os autores. Além disso, os autores mais centrais na rede, ou seja, aqueles com um alto grau de conexão (número de coautores), têm um papel fundamental na disseminação do conhecimento e na promoção de colaborações dentro do grupo. Esses autores podem ser identificados visualmente no grafo como aqueles que têm um grande número de arestas conectando-os a outros nós, ou através de métricas como grau de centralidade.
 
+  ![Grafo Completo](https://github.com/polianaraujo/aed2/blob/82c557030227345dce829bcf0e727370f78199ec/U1T2/imagens/grafo%20completo.png)
+
 - Subgrafo: Ao analisar o subgrafo que representa os componentes principais, é importante destacar os autores que ocupam posições centrais. Esses nós centrais geralmente indicam autores que servem como “ponte” entre diferentes grupos de pesquisa, promovendo a integração entre áreas específicas dentro do campo de Redes Neurais e Controle Inteligente. Esses autores têm um papel essencial na coesão da rede, garantindo que as informações fluam de maneira mais eficiente entre diferentes subgrupos. Podemos também observar a existência de pequenos componentes isolados ou menos conectados, o que pode indicar a presença de grupos de pesquisa menores que têm pouca ou nenhuma colaboração com outros grupos.
 
+  ![Subgrafo](https://github.com/polianaraujo/aed2/blob/82c557030227345dce829bcf0e727370f78199ec/U1T2/imagens/subgrafo.png)
+
 - Histograma de Grau de Conexão dos Autores: O histograma do grau de conexão dos autores fornece uma visão mais quantitativa sobre o número de coautores que cada pesquisador tem. Se a maioria dos autores tiver um número baixo de coautores, isso pode indicar uma colaboração limitada, onde os autores tendem a publicar com um grupo restrito de colaboradores, possivelmente do mesmo grupo de pesquisa ou departamento. Esse comportamento é comum em áreas mais especializadas ou em estágios iniciais de formação de redes colaborativas. Por outro lado, autores com um número significativamente maior de coautores podem ser considerados líderes na área, responsáveis por promover colaborações amplas e, muitas vezes, interdisciplinares.
+
+  ![Histograma](https://github.com/polianaraujo/aed2/blob/82c557030227345dce829bcf0e727370f78199ec/U1T2/imagens/histograma.png)
 
 Com base nos gráficos e nas análises feitas, é possível tirar algumas conclusões sobre o estado da colaboração em pesquisa na UFRN na área de Redes Neurais e Controle Inteligente:
 - Densidade e Centralidade: Uma alta densidade e a presença de autores centrais sugerem uma rede coesa, onde o conhecimento flui facilmente entre os membros.
@@ -52,3 +58,7 @@ Esse projeto também demonstrou o potencial das ferramentas de análise de grafo
 ## Formas de executar o código
 
 O código completo está disponível neste repositório do Github, juntamente com o arquivo de dados em formato .csv. Para executar o código é recomendável usar o Google Colab, que já possi as bibliotecas necessárias. No caso do uso de outro ambiente, talvez seja necessário instalar algumas dessas bibliotecas.
+
+## Link para a apresentação do código em vídeo
+
+[**Youtube**](https://www.youtube.com/watch?v=x3NFGJoGZpQ)
