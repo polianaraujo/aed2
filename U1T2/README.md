@@ -13,7 +13,7 @@ Este trabalho teve como objetivo reforçar conceitos de grafos, utilizando a bib
 ## Desenvolvimento  
 
 ### Passo #01 - Extração dos Dados 🎲​
-Obtemos um arquivo .csv na plataforma Scopus, contendo informações de artigos publicados por autores da Universidade Federal do Rio Grande do Norte (UFRN). Os artigos selecionados estão dentro da área de Redes Neurais, e o arquivo contém as seguintes informações:  
+Obtemos um arquivo .csv na plataforma Scopus, contendo informações de artigos publicados por autores da Universidade Federal do Rio Grande do Norte (UFRN). Os artigos selecionados estão dentro da área de Redes Neurais e Controle Inteligente, e o arquivo contém as seguintes informações:  
 - Nome dos autores
 - Identificadores únicos dos autores
 - Título do artigo
