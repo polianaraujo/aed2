@@ -18,9 +18,10 @@ Este trabalho teve como objetivo reforçar conceitos de grafos, utilizando a bib
 Medicamentos da mesma categoria regulatória tendem a compartilhar princípios ativos?
 
 - Vértices: Medicamentos.
-- Arestas: Mesmo princípio ativo entre dois medicamentos.
-- Assortatividade: Calculada com base na categoria regulatória dos medicamentos.
+- Arestas: Medicamentos que compartilham o mesmo princípio ativo.
+- Assortatividade: A assortatividade foi calculada com base na categoria regulatória dos medicamentos. Nesse contexto, a assortatividade mede se medicamentos de uma mesma categoria regulatória (por exemplo, genérico, similar, biológico) tendem a compartilhar mais princípios ativos entre si do que com medicamentos de outras categorias.
 
+A Rede #01 foi criada com o objetivo de investigar se a categoria regulatória de um medicamento influencia a probabilidade de ele compartilhar o mesmo princípio ativo com outros medicamentos. A visualização em formato circos plot, gerada com a biblioteca nxviz, ajuda a destacar esses grupos e suas interações, possibilitando identificar padrões de compartilhamento de princípios ativos.
 
 ### Rede #02 - Grafo bipartido de medicamentos e princípios ativos
 
@@ -28,9 +29,10 @@ Medicamentos da mesma categoria regulatória tendem a compartilhar princípios a
 Princípios ativos compartilhados por medicamentos complexos tendem a se conectar a medicamentos com perfis de complexidade similar?
 
 - Vértices: Medicamentos e princípios ativos.
-- Arestas: Medicamento ao seus respectivos princípios ativos.
-- Assortatividade: Calcular a assortatividade por grau dentro do grafo bipartido para determinar se os princípios ativos que se conectam a medicamentos complexos (com muitos princípios ativos) tendem a se conectar também a medicamentos com perfis de complexidade semelhante.
+- Arestas: Medicamento conectado aos seus respectivos princípios ativos
+- Assortatividade:  A assortatividade por grau foi calculada dentro do grafo bipartido. Nesse caso, avaliamos se medicamentos com maior complexidade (medicamentos com vários princípios ativos) tendem a se conectar a princípios ativos que também são compartilhados com outros medicamentos de alta complexidade.
 
+A Rede #02 tem como foco principal explorar o nível de complexidade dos medicamentos, definido pela quantidade de princípios ativos que um medicamento contém. Essa análise é útil para entender se medicamentos com muitos princípios ativos possuem padrões de conectividade diferenciados em relação a medicamentos menos complexos.
 
 ### Rede #03 - Co-ocorrência por Empresa ou Classe Terapêutica
 
@@ -39,14 +41,14 @@ Medicamentos da mesma empresa ou classe terapêutica tendem a
 compartilhar mais princípios ativos?
 
 - Vértices: Medicamentos.
-- Arestas: Aresta entre medicamentos com mesmo princípio ativo.
-- Assortatividade: Calcular a assortatividade com base na empresa ou classe terapêutica dos medicamentos.
+- Arestas:  Medicamentos que compartilham o mesmo princípio ativo
+- Assortatividade: A assortatividade foi calculada com base na empresa fabricante ou classe terapêutica dos medicamentos. Assim, medimos se medicamentos da mesma empresa ou pertencentes à mesma classe terapêutica apresentam uma tendência maior de compartilhar princípios ativos.
 
+A Rede #03 visa analisar se a empresa fabricante ou a classe terapêutica de um medicamento influencia a sua probabilidade de compartilhar princípios ativos com outros medicamentos. O objetivo aqui é entender se padrões de co-ocorrência de princípios ativos estão relacionados com fatores comerciais ou terapêuticos.
 
 ## Resultados e Discussão
 
-- Rede #1:
-
+- Rede #1: A assortatividade de 0,353 revela uma correlação moderada entre medicamentos da mesma categoria regulatória, sugerindo que há uma tendência desses medicamentos compartilharem princípios ativos, mas ainda há considerável diversidade dentro das categorias. Além disso, a quantidade significativa de medicamentos sem princípio ativo (13.239) sugere que uma parte importante dos medicamentos no dataset não está associada a uma substância específica.
 <!-- ![Grafo Completo](https://github.com/polianaraujo/aed2/blob/82c557030227345dce829bcf0e727370f78199ec/U1T2/imagens/grafo%20completo.png) -->
 
 - Rede #2: 
