@@ -22,6 +22,7 @@ Medicamentos da mesma categoria regulatória tendem a compartilhar princípios a
 - Assortatividade: A assortatividade foi calculada com base na categoria regulatória dos medicamentos. Nesse contexto, a assortatividade mede se medicamentos de uma mesma categoria regulatória (por exemplo, genérico, similar, biológico) tendem a compartilhar mais princípios ativos entre si do que com medicamentos de outras categorias.
 
 A Rede #01 foi criada com o objetivo de investigar se a categoria regulatória de um medicamento influencia a probabilidade de ele compartilhar o mesmo princípio ativo com outros medicamentos. A visualização em formato circos plot, gerada com a biblioteca nxviz, ajuda a destacar esses grupos e suas interações, possibilitando identificar padrões de compartilhamento de princípios ativos.
+Responda à pergunta, de acordo com a assortatividade por categoria regulatória encontrada de 0.353, que é um valor mais próximo de 1 do que de -1, ou seja, há uma certa tendência de medicamentos da mesma categoria regulatória compartilharem os mesmos princípios ativos.
 
 ### Rede #02 - Grafo bipartido de medicamentos e princípios ativos
 
@@ -33,6 +34,7 @@ Princípios ativos compartilhados por medicamentos complexos tendem a se conecta
 - Assortatividade:  A assortatividade por grau foi calculada dentro do grafo bipartido. Nesse caso, avaliamos se medicamentos com maior complexidade (medicamentos com vários princípios ativos) tendem a se conectar a princípios ativos que também são compartilhados com outros medicamentos de alta complexidade.
 
 A Rede #02 tem como foco principal explorar o nível de complexidade dos medicamentos, definido pela quantidade de princípios ativos que um medicamento contém. Essa análise é útil para entender se medicamentos com muitos princípios ativos possuem padrões de conectividade diferenciados em relação a medicamentos menos complexos.
+Responda à pergunta, de acordo com a assortatividade por categoria regulatória encontrada de -0.452, que é um valor mais próximo de -1 do que de 1, ou seja, há uma tendência de que medicamentos com um número elevado de conexões se conectem a medicamentos com poucas conexões.
 
 ### Rede #03 - Co-ocorrência por Empresa ou Classe Terapêutica
 
@@ -45,6 +47,7 @@ compartilhar mais princípios ativos?
 - Assortatividade: A assortatividade foi calculada com base na empresa fabricante ou classe terapêutica dos medicamentos. Assim, medimos se medicamentos da mesma empresa ou pertencentes à mesma classe terapêutica apresentam uma tendência maior de compartilhar princípios ativos.
 
 A Rede #03 visa analisar se a empresa fabricante ou a classe terapêutica de um medicamento influencia a sua probabilidade de compartilhar princípios ativos com outros medicamentos. O objetivo aqui é entender se padrões de co-ocorrência de princípios ativos estão relacionados com fatores comerciais ou terapêuticos.
+Responda à pergunta, de acordo com a assortatividade por Classe Terapêutica encontrada de 0.697, que é um valor mais próximo de 1 do que de -1, ou seja, há um forte agrupamento de medicamentos por classe terapêutica, medicamentos dentro dessa mesma classa são mais propensos a compartilhar princípios ativos entre si.
 
 ## Resultados e Discussão
 
