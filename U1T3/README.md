@@ -49,16 +49,16 @@ A Rede #03 visa analisar se a empresa fabricante ou a classe terapêutica de um 
 ## Resultados e Discussão
 
 - Rede #1: A Rede #1 foi criada com o objetivo de investigar se a categoria regulatória de um medicamento influencia a probabilidade de ele compartilhar o mesmo princípio ativo com outros medicamentos. A visualização em formato circos plot, gerada com a biblioteca nxviz, ajudou a destacar esses grupos e suas interações. O cálculo da assortatividade por categoria regulatória resultou em um valor de 0.353, indicando uma tendência moderada de medicamentos dentro da mesma categoria compartilharem princípios ativos.
-<!-- ![Grafo Completo](https://github.com/polianaraujo/aed2/blob/82c557030227345dce829bcf0e727370f78199ec/U1T2/imagens/grafo%20completo.png) -->
+  ![Grafo Rede #1](https://github.com/polianaraujo/aed2/blob/8a2c3c3aa459cbb07f5e5e1e37529f057be3cfd8/U1T3/Images/grafo1.png)
 
 - Rede #2: A Rede #2 foi calculada a assortatividade por grau para o grafo bipartido, que avalia a correlação entre medicamentos com base no número de conexões que eles têm com princípios ativos. O valor encontrado foi de -0.452, sugerindo que medicamentos com um número diferente de princípios ativos tendem a estar mais conectados entre si, o que caracteriza uma disassortatividade. Esse resultado indica que medicamentos com muitos princípios ativos tendem a compartilhar esses princípios com medicamentos que têm poucos princípios ativos.
-<!-- ![Subgrafo](https://github.com/polianaraujo/aed2/blob/82c557030227345dce829bcf0e727370f78199ec/U1T2/imagens/subgrafo.png) -->
+  ![Grafo Rede #2 ](https://github.com/polianaraujo/aed2/blob/8a2c3c3aa459cbb07f5e5e1e37529f057be3cfd8/U1T3/Images/grafo3.png)
 
 - Rede #3:
   - Classe Terapêutica: Foi calculada a assortatividade com base na classe terapêutica dos medicamentos, que resultou em um valor de 0.697, indicando uma alta assortatividade. Isso significa que medicamentos da mesma classe terapêutica tendem a compartilhar mais princípios ativos entre si do que com medicamentos de outras classes.
   - Empresa: A assortatividade por empresa foi baixa, com um valor de 0.023, indicando que a empresa detentora do registro não influencia significativamente o compartilhamento de princípios ativos entre medicamentos.
 Essa rede foi fundamental para entender como medicamentos de diferentes classes terapêuticas e empresas compartilham princípios ativos. O alto valor de assortatividade por classe terapêutica sugere que medicamentos da mesma classe têm um perfil farmacológico mais homogêneo, reforçando a ideia de que há uma divisão clara no mercado entre classes de medicamentos.
-<!-- ![Histograma](https://github.com/polianaraujo/aed2/blob/82c557030227345dce829bcf0e727370f78199ec/U1T2/imagens/histograma.png) -->
+  ![Grafo Rede #3 ](https://github.com/polianaraujo/aed2/blob/8a2c3c3aa459cbb07f5e5e1e37529f057be3cfd8/U1T3/Images/grafo4.png)
 
 Com base nos gráficos e nas análises feitas, é possível tirar algumas conclusões sobre :
 - 1 O circos plot é ideal para destacar os padrões de conectividade entre categorias regulatórias e medicamentos. A visualização ajuda a ver quais categorias tendem a compartilhar mais princípios ativos entre si. No nosso caso, exite uma alta variedade de medicamentos e existem tendências de co-ocorrência dentro de algumas categorias específicas.
