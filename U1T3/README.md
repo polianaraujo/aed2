@@ -61,9 +61,9 @@ Essa rede foi fundamental para entender como medicamentos de diferentes classes 
 <!-- ![Histograma](https://github.com/polianaraujo/aed2/blob/82c557030227345dce829bcf0e727370f78199ec/U1T2/imagens/histograma.png) -->
 
 Com base nos gráficos e nas análises feitas, é possível tirar algumas conclusões sobre :
-- 1
+- 1 O circos plot é ideal para destacar os padrões de conectividade entre categorias regulatórias e medicamentos. A visualização ajuda a ver quais categorias tendem a compartilhar mais princípios ativos entre si. No nosso caso, exite uma alta variedade de medicamentos e existem tendências de co-ocorrência dentro de algumas categorias específicas.
 - 2: A rede bipartida foi visualizada com uma disposição de medicamentos e princípios ativos em lados opostos, facilitando a análise das conexões entre eles. Essa representação ajudou a identificar padrões na forma como os princípios ativos são distribuídos entre medicamentos de diferentes níveis de complexidade.
-- 3
+- 3: No grafo, muitos do nós estão posicionados em um anel externo, isso significa que tem muitas conexões (muitos compartilhamentos de principios ativos) enquanto os subgrupos de nós na região central formam uma estrutura com poucas conexões.
 
 ## Conclusão
 
