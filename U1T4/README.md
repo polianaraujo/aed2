@@ -13,7 +13,7 @@ Este trabalho teve como objetivo é analisar as diferentes métricas estudadas (
 
 ### 0. Rede de Natal/RN
 
-![Rede de Natal/RN](https://github.com/polianaraujo/aed2/blob/8a2c3c3aa459cbb07f5e5e1e37529f057be3cfd8/U1T3/Images/rede_natal.png)
+![Rede de Natal/RN](https://github.com/polianaraujo/aed2/blob/main/U1T4/Images/rede_natal.png)
 
 ### 1. Cycles (Ciclos)
 
