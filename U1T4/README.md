@@ -76,4 +76,4 @@ A maneira mais fácil de rodar esse código é abrir o arquivo .ipynb no Google 
 
 ## Link para a apresentação do código em vídeo
 
-<!-- [**Youtube**](colocar) -->
+[**Youtube**](https://youtu.be/DXQ1DRR-NWo)
