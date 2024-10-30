@@ -4,7 +4,7 @@
 - Poliana Ellen de Araújo (20240001289)
 
 ## Objetivo Geral:  
-Este trabalho teve como objetivo é analisar as diferentes métricas estudadas (Cycles, Average Shortest Path Length, Diameter of Network, Shortest Path Length, Connected Components, Giant Connected Components, number connected components, BFS, DFS, SCC, WCC e Clustering Coefficient) aplicando à rede formada pela cidade de Natal/RN utilizando a biblioteca OSMnx.
+Este trabalho teve como objetivo é analisar as diferentes métricas estudadas (Cycles, Average Shortest Path Length, Diameter of Network, Shortest Path Length, Connected Components, Giant Connected Components, number connected components, BFS, DFS, SCC, WCC e Clustering Coefficient) aplicando à rede formada pela cidade de Natal/RN utilizando a biblioteca OSMnx, que é utilizada para fazer a análise de redes urbanas.
 <!-- [**Gov**](https://dados.gov.br/dados/conjuntos-dados/medicamentos-registrados-no-brasil) -->
 <!-- [![Botão](https://dummyimage.com/60x20/575757/fff&text=Scopus)](https://www.scopus.com/home.uri?zone=header&origin=) -->
 
@@ -47,7 +47,7 @@ O valor 209 significa que, na maior componente conectada da rede de ruas, a dist
 
 ### 4. Shortest Path Length (Caminho Mais Curto)
 
-Escolhemos dois pontos aleatórios para verificar a distância entre eles, e representa a distância mais curta entre os pontos selecionados, ajudando a entender a conectividade prática.
+Escolhemos dois pontos aleatórios para verificar a distância entre eles, e medimos a distância mais curta entre os pontos selecionados, ajudando a entender a conectividade prática.
 
 P: Qual é o menor caminho entre dois pontos principais?
 
@@ -55,16 +55,15 @@ R: ```Comprimento do caminho mais curto entre dois pontos: 57```
 
 O valor 57 significa que, para viajar do nó nodes[0] ao nó nodes[-1] na rede, o caminho mais curto entre esses dois pontos envolve atravessar 57 arestas. Ou seja, existe uma rota mínima entre esses dois nós que passa por 57 segmentos de ruas, que pode ser entendida como a rota mais eficiente em termos de número de segmentos.
 
-### 5. Connected Components (Componentes Conectados)
+### 5. Giant Connected Component (Maior Componente Conectado)
 
 O número de componentes conectados indica quantas sub-redes existem na cidade. Isso mostra quantas partes independentes existem na rede e se há áreas desconectadas.
 
 P: Quantos componentes conectados existem na rede?
 
-R: ```Número de componentes conectados: 1```
+R: ```Número de nós no maior componente conectado: 18668```
 
-O resultado 1 indica que a rede de ruas de Natal/RN é totalmente conectada dentro da sua maior componente. Existe um caminho entre qualquer par de nós no grafo, o que caracteriza uma única componente conectada.
-
+O valor 18.668 nós indica que a maior parte da rede viária de Natal está conectada em um grande componente. Esse número representa o maior subgrafo da cidade, composto principalmente por ruas interligadas, onde há rotas acessíveis de um ponto a outro. Os nós fora desse maior componente representam pequenas redes isoladas (como ruas privadas ou ruas desconectadas), mas são geralmente menos significativos em termos de mobilidade urbana, pois não estão interligados ao restante da cidade.
 
 ## Conclusão
 
@@ -76,11 +75,12 @@ O resultado 1 indica que a rede de ruas de Natal/RN é totalmente conectada dent
 
 4. O valor 57 indica que, na rede de ruas de Natal-RN, a rota mais curta entre os nós nodes[0] e nodes[-1] requer passar por 57 segmentos de ruas. Este é o menor número de segmentos necessários para conectar esses dois pontos, representando a eficiência da rede de ruas entre eles.
 
-5. Esse resultado é um bom indicativo da interligação da rede de ruas na cidade de Natal, permitindo uma navegação eficiente e uma rede contínua de caminhos.
+5. 
 
 
 ## Formas de executar o código
 
+A maneira mais fácil de rodar esse código é abrir o arquivo .ipynb no Google Colab ou no Jupyter, em que as células de código poderão ser rodadas em sequência.
 
 
 ## Link para a apresentação do código em vídeo
