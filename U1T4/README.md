@@ -23,8 +23,6 @@ P: Quantos ciclos independentes existem na rede de Natal?
 
 R: ```Número de ciclos independentes na rede: 9414```
 
-Um número elevado, como 9414, indica que a rede de ruas tem muitas malhas ou seções fechadas, o que sugere uma boa conectividade e alternativas de rotas. Em redes urbanas, uma quantidade alta de ciclos pode ser positiva, pois implica a possibilidade de múltiplos caminhos entre locais, o que pode melhorar a acessibilidade e flexibilidade na mobilidade urbana.
-
 ### 2. Average Shortest Path Length (Comprimento Médio do Caminho Mais Curto)
 
 Esta métrica reflete a facilidade ou dificuldade de navegação pela cidade, com valores menores indicando uma rede mais conectada e acessível.
@@ -32,8 +30,6 @@ Esta métrica reflete a facilidade ou dificuldade de navegação pela cidade, co
 P: Qual é o comprimento médio do caminho mais curto?
 
 R: ```Comprimento médio do caminho mais curto (na maior componente conectada): 79.5658127079651```
-
-Esse número indica que, em média, você precisaria percorrer cerca de 79,57 arestas (ou segmentos de ruas) para ir de um nó a outro dentro da maior componente conectada do grafo.
 
 ### 3. Diameter of Network (Diâmetro da Rede)
 
@@ -43,8 +39,6 @@ P: Qual é o maior caminho dentro da rede?
 
 R: ```Diâmetro da rede (na maior componente conectada): 209```
 
-O valor 209 significa que, na maior componente conectada da rede de ruas, a distância máxima entre dois nós (ou pontos) conectados é de 209 arestas. Para dois nós que estão no caminho mais distante possível dentro dessa componente, seria necessário passar por 209 segmentos de ruas para ir de um ao outro, usando o caminho mais curto disponível.
-
 ### 4. Shortest Path Length (Caminho Mais Curto)
 
 Escolhemos dois pontos aleatórios para verificar a distância entre eles, e medimos a distância mais curta entre os pontos selecionados, ajudando a entender a conectividade prática.
@@ -52,8 +46,6 @@ Escolhemos dois pontos aleatórios para verificar a distância entre eles, e med
 P: Qual é o menor caminho entre dois pontos principais?
 
 R: ```Comprimento do caminho mais curto entre dois pontos: 57```
-
-O valor 57 significa que, para viajar do nó nodes[0] ao nó nodes[-1] na rede, o caminho mais curto entre esses dois pontos envolve atravessar 57 arestas. Ou seja, existe uma rota mínima entre esses dois nós que passa por 57 segmentos de ruas, que pode ser entendida como a rota mais eficiente em termos de número de segmentos.
 
 ### 5. Giant Connected Component (Maior Componente Conectado)
 
@@ -63,19 +55,18 @@ P: Quantos componentes conectados existem na rede?
 
 R: ```Número de nós no maior componente conectado: 18668```
 
-O valor 18.668 nós indica que a maior parte da rede viária de Natal está conectada em um grande componente. Esse número representa o maior subgrafo da cidade, composto principalmente por ruas interligadas, onde há rotas acessíveis de um ponto a outro. Os nós fora desse maior componente representam pequenas redes isoladas (como ruas privadas ou ruas desconectadas), mas são geralmente menos significativos em termos de mobilidade urbana, pois não estão interligados ao restante da cidade.
 
 ## Conclusão
 
-1. O número 9414 ciclos independentes sugere que a rede de ruas de Natal-RN possui uma estrutura interconectada com várias rotas alternativas, refletindo uma boa acessibilidade dentro da maior componente conectada. Isso é geralmente desejável em redes urbanas, pois melhora a navegação e aumenta a eficiência dos caminhos disponíveis para deslocamentos dentro da cidade.
+1. O resultado 9414 é um número elevado de ciclos independentes sugere que a rede de ruas possui muitas malhas ou seções fechadas. Isso é positivo, pois implica boa conectividade e alternativas de rotas. Em redes urbanas, uma quantidade alta de ciclos pode melhorar a acessibilidade e a flexibilidade na mobilidade.
 
-2. Em resumo, 79,5658 fornece uma visão geral da conectividade na maior componente conectada da rede de ruas de Natal-RN, ajudando a avaliar a acessibilidade e a eficiência das rotas na cidad
+2. Esse número indica que, em média, é preciso percorrer cerca de 79,57 arestas (ou segmentos de ruas) para ir de um nó a outro dentro da maior componente conectada do grafo.
 
-3. O valor 209 para o diâmetro indica que a maior componente conectada da rede de ruas de Natal-RN tem um alcance amplo, com a maior distância (em termos de segmentos de rua) entre dois pontos sendo relativamente elevada. Essa medida de diâmetro ajuda a compreender o limite máximo de deslocamento entre os pontos mais distantes da cidade, considerando apenas o caminho mais curto entre eles.
+3. O valor 209 significa que, na maior componente conectada, a distância máxima entre dois nós (ou pontos) conectados é de 209 arestas. Para alcançar o ponto mais distante, seria necessário passar por 209 segmentos de ruas utilizando o caminho mais curto disponível.
 
-4. O valor 57 indica que, na rede de ruas de Natal-RN, a rota mais curta entre os nós nodes[0] e nodes[-1] requer passar por 57 segmentos de ruas. Este é o menor número de segmentos necessários para conectar esses dois pontos, representando a eficiência da rede de ruas entre eles.
+4. O valor 57 significa que, para viajar do nó nodes[0] ao nó nodes[-1] na rede, o caminho mais curto entre esses dois pontos envolve atravessar 57 arestas. Ou seja, existe uma rota mínima entre esses dois nós que passa por 57 segmentos de ruas, que pode ser entendida como a rota mais eficiente em termos de número de segmentos.
 
-5. 
+5. O valor 18.668 nós indica que a maior parte da rede viária de Natal está conectada em um grande componente. Esse número representa o maior subgrafo da cidade, composto principalmente por ruas interligadas, onde há rotas acessíveis de um ponto a outro. Os nós fora desse maior componente representam pequenas redes isoladas (como ruas privadas ou ruas desconectadas), mas são geralmente menos significativos em termos de mobilidade urbana, pois não estão interligados ao restante da cidade.
 
 
 ## Formas de executar o código
