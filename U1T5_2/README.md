@@ -31,26 +31,26 @@ Longitude Leste (-35.194) e Longitude Oeste (-35.227): Esses limites de longitud
 Essa métrica vai informar o número de conexões diretas (arestas) que um nó possui, ou seja, é a contagem de vizinhos de um nó. Um nó com um alto grau de centralidade é considerado "importante" porque está diretamente conectado a muitos outros nós.
 
 
-![Centralidade de Grau](https://github.com/polianaraujo/aed2/blob/main/U1T5/Images/Centralidade_de_Grau.png)
+![Centralidade de Grau](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/Centralidade_de_Grau.png)
 
 - Centralidade de Proximidade
 Essa métrica mede o quão próximo um nó está de todos os outros nós da rede. Isso é feito calculando a soma das distâncias mais curtas (em termos de número de arestas) entre o nó e todos os outros nós. Portanto, vai informar a distância média para todos os outros nós.
 
 
-![Centralidade de Proximidade](https://github.com/polianaraujo/aed2/blob/main/U1T5/Images/Centralidade_de_Proximidade.png)
+![Centralidade de Proximidade](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/Centralidade_de_Proximidade.png)
 
 
 - Centralidade de Intermediação
 Ela mede quantas vezes um nó aparece como um intermediário em caminhos mais curtos entre outros pares de nós. Em outras palavras, quantas vezes um nó atua como um "ponte" entre outros nós.
 
 
-![Centralidade de Intermediação](https://github.com/polianaraujo/aed2/blob/main/U1T5/Images/Centralidade_de_Intermediação.png)
+![Centralidade de Intermediação](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/Centralidade_de_Intermediação.png)
 
 - Centralidade de Autovetor
 Pontuação de autoridade baseada na pontuação dos vizinhos. Não apenas considera o número de conexões que um nó possui, mas também a qualidade dessas conexões. Um nó é considerado importante se estiver conectado a outros nós que também são importantes.
 
 
-![Centralidade de Autovetor](https://github.com/polianaraujo/aed2/blob/main/U1T5/Images/Centralidade_de_Autovetor.png)
+![Centralidade de Autovetor](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/Centralidade_de_Autovetor.png)
 
 
 ### Requisito 2

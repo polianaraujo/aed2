@@ -31,34 +31,34 @@ Longitude Leste (-35.194) e Longitude Oeste (-35.227): Esses limites de longitud
 Essa métrica vai informar o número de conexões diretas (arestas) que um nó possui, ou seja, é a contagem de vizinhos de um nó. Um nó com um alto grau de centralidade é considerado "importante" porque está diretamente conectado a muitos outros nós.
 
 
-![Centralidade de Grau](https://github.com/polianaraujo/aed2/blob/main/U1T5_2_2/Images/Centralidade_de_Grau.png)
+![Centralidade de Grau](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/Centralidade_de_Grau.png)
 
 - Centralidade de Proximidade
 Essa métrica mede o quão próximo um nó está de todos os outros nós da rede. Isso é feito calculando a soma das distâncias mais curtas (em termos de número de arestas) entre o nó e todos os outros nós. Portanto, vai informar a distância média para todos os outros nós.
 
 
-![Centralidade de Proximidade](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/Centralidade_de_Proximidade.png)
+![Centralidade de Proximidade](https://github.com/polianaraujo/aed2/blob/main/U1T5/Images/Centralidade_de_Proximidade.png)
 
 
 - Centralidade de Intermediação
 Ela mede quantas vezes um nó aparece como um intermediário em caminhos mais curtos entre outros pares de nós. Em outras palavras, quantas vezes um nó atua como um "ponte" entre outros nós.
 
 
-![Centralidade de Intermediação](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/Centralidade_de_Intermediação.png)
+![Centralidade de Intermediação](https://github.com/polianaraujo/aed2/blob/main/U1T5/Images/Centralidade_de_Intermediação.png)
 
 - Centralidade de Autovetor
 Pontuação de autoridade baseada na pontuação dos vizinhos. Não apenas considera o número de conexões que um nó possui, mas também a qualidade dessas conexões. Um nó é considerado importante se estiver conectado a outros nós que também são importantes.
 
 
-![Centralidade de Autovetor](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/Centralidade_de_Autovetor.png)
+![Centralidade de Autovetor](https://github.com/polianaraujo/aed2/blob/main/U1T5/Images/Centralidade_de_Autovetor.png)
 
 
 ### Requisito 2
 Realizamos a análise dos graus dos nós utilizando gráficos de CDF e PDF, que fornecem informações sobre a distribuição de conexões na rede. A análise foi realizada com a biblioteca Seaborn para visualização. Os gráficos mostram a distribuição dos graus e nos permitem observar a concentração de nós com poucos ou muitos graus.
 
-![Cumulative Density Function](https://github.com/polianaraujo/aed2/blob/7acd2621b8ecd4f82aae876cb91d2e0858c85d33/U1T5_2/Images/cumulative_density_function.png)
+![Cumulative Density Function](https://github.com/polianaraujo/aed2/blob/7acd2621b8ecd4f82aae876cb91d2e0858c85d33/U1T5/Images/cumulative_density_function.png)
 
-![Probability Density Function](https://github.com/polianaraujo/aed2/blob/7acd2621b8ecd4f82aae876cb91d2e0858c85d33/U1T5_2/Images/probability_density_function.png)
+![Probability Density Function](https://github.com/polianaraujo/aed2/blob/7acd2621b8ecd4f82aae876cb91d2e0858c85d33/U1T5/Images/probability_density_function.png)
 
 ### Requisito 3
 Para observar as relações entre as diferentes métricas, realizamos uma análise multivariada com PairGrid, que permite identificar correlações visuais entre as métricas. Esse processo destaca como as métricas podem estar relacionadas em uma análise conjunta.
