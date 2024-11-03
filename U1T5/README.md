@@ -31,7 +31,7 @@ Longitude Leste (-35.194) e Longitude Oeste (-35.227): Esses limites de longitud
 Essa métrica vai informar o número de conexões diretas (arestas) que um nó possui, ou seja, é a contagem de vizinhos de um nó. Um nó com um alto grau de centralidade é considerado "importante" porque está diretamente conectado a muitos outros nós.
 
 
-![Centralidade de Grau](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/Centralidade_de_Grau.png)
+![Centralidade de Grau](https://github.com/polianaraujo/aed2/blob/main/U1T5/Images/Centralidade_de_Grau.png)
 
 - Centralidade de Proximidade
 Essa métrica mede o quão próximo um nó está de todos os outros nós da rede. Isso é feito calculando a soma das distâncias mais curtas (em termos de número de arestas) entre o nó e todos os outros nós. Portanto, vai informar a distância média para todos os outros nós.
