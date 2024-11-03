@@ -56,6 +56,10 @@ Pontuação de autoridade baseada na pontuação dos vizinhos. Não apenas consi
 ### Requisito 2
 Realizamos a análise dos graus dos nós utilizando gráficos de CDF e PDF, que fornecem informações sobre a distribuição de conexões na rede. A análise foi realizada com a biblioteca Seaborn para visualização. Os gráficos mostram a distribuição dos graus e nos permitem observar a concentração de nós com poucos ou muitos graus.
 
+![Cumulative Density Function](https://github.com/polianaraujo/aed2/blob/7acd2621b8ecd4f82aae876cb91d2e0858c85d33/U1T5/Images/cumulative_density_function.png)
+
+![Probability Density Function](https://github.com/polianaraujo/aed2/blob/7acd2621b8ecd4f82aae876cb91d2e0858c85d33/U1T5/Images/probability_density_function.png)
+
 ### Requisito 3
 Para observar as relações entre as diferentes métricas, realizamos uma análise multivariada com PairGrid, que permite identificar correlações visuais entre as métricas. Esse processo destaca como as métricas podem estar relacionadas em uma análise conjunta.
 
@@ -66,7 +70,27 @@ Aqui está um código que utiliza o número do núcleo para separar os nós em d
 
 o grafo contém laços (self-loops), que não são permitidos ao calcular o número do núcleo em NetworkX. Para resolver esse problema, você precisa remover esses laços do grafo antes de calcular o número do núcleo.
 
-##Conclusão
+## Resultados
+Requisito 1 -
+
+Requisito 2 -
+No primeiro gráfico, temos a Função de Densidade de Probabilidade (PDF) sobreposta ao histograma dos graus dos nós na rede. A PDF mostra a probabilidade de ocorrência de um determinado grau. Observamos que:
+* O grau mais frequente na rede é em torno de 6, indicando que a maioria dos nós (ou locais de interseção na rede) tende a ter aproximadamente 6 conexões.
+* Há uma leve assimetria, pois a distribuição tem uma "cauda" à direita, indicando que existem alguns nós com grau superior a 6, embora sejam menos frequentes.
+* Esse pico principal sugere uma conectividade relativamente alta em alguns pontos da rede, o que pode indicar áreas onde há um fluxo significativo de acessos.
+
+O segundo gráfico exibe a Função de Densidade Acumulada (CDF), que mostra a probabilidade acumulada até um determinado grau. Isso permite ver, por exemplo, que:
+* Cerca de 80% dos nós têm um grau menor ou igual a 6, confirmando que essa é uma região central da distribuição de graus.
+* A curva da CDF se estabiliza perto de 1 (ou 100%) após o grau 8, o que sugere que poucos nós têm graus superiores a este valor.
+* Esse comportamento acumulativo ajuda a identificar a presença de uma distribuição concentrada, com uma pequena proporção de nós mais conectados que poderiam funcionar como hubs locais na rede.
+
+Os resultados sugerem uma estrutura de rede com alta densidade de conexões locais em torno de nós específicos, o que é típico de redes urbanas bem conectadas. Esse padrão pode ser um indicativo de boas oportunidades para instalar dock-stations em pontos com graus mais altos, onde o fluxo de bicicletas seria potencialmente maior. Esses gráficos também indicam que a rede não possui uma estrutura com graus muito dispersos, o que poderia sugerir uma topologia bem planejada para suportar a mobilidade.
+  
+Requisito 3 -
+
+Requisito 4 - 
+
+## Conclusão
 As análises revelaram a distribuição da mobilidade e conectividade no entorno da UFRN, com bairros como Lagoa Nova e Capim Macio mostrando altos valores de centralidade. Com base nas métricas, identificamos locais potenciais para a instalação de dock-stations de bicicletas compartilhadas, considerando áreas com alta conectividade e proximidade.
 
 Essa análise é uma base para futuras decisões de mobilidade na região, auxiliando na criação de um sistema de transporte mais integrado e sustentável ao redor da UFRN.
