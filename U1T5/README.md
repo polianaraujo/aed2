@@ -107,6 +107,19 @@ Esse gráfico de análise multivariada das métricas de centralidade apresenta a
 Essas análises mostram que há uma diversidade de conectividade e influência na rede. Os nós que apresentam alta centralidade em múltiplas métricas (especialmente closeness e betweenness) .... TERMIANR DE ESCREVER
     
 Requisito 4 - 
+1. Padrões Sociais de Grau
+No primeiro gráfico (representado pelo mapa de calor de grau), observamos como os nós estão distribuídos em termos de conectividade (grau) dentro da rede. A coloração mais quente (vermelha) indica áreas de maior concentração de nós com altos valores de grau, enquanto as cores frias (azul) indicam nós com grau mais baixo. Esse padrão ajuda a identificar clusters ou zonas onde há uma maior densidade de conexões, sugerindo pontos de alta acessibilidade e importância dentro da rede.
+
+Este tipo de visualização é útil para apontar onde existem nós altamente conectados, que podem servir como pontos centrais para o tráfego e a mobilidade no entorno da UFRN. Esses nós são potenciais locais para dock-stations de bicicletas, pois eles estão acessíveis a partir de vários pontos na rede.
+
+3. Estrutura Core/Shell
+O segundo gráfico apresenta a análise de core/shell da rede. Nesta análise, os nós da rede foram classificados de acordo com o número de conexões, separando-os em diferentes camadas:
+1-shell: Representado em azul, inclui nós periféricos com menor conectividade.
+2-core: Representado em vermelho, inclui nós mais conectados e centrais na estrutura da rede.
+
+Observamos que a rede possui uma alta densidade de nós no 2-core, mostrando que há uma boa conectividade interna. Esses nós centrais (2-core) indicam a existência de uma estrutura robusta na rede, onde muitos pontos estão conectados de maneira eficiente. Isso é benéfico para a mobilidade, pois esses nós são mais resilientes a falhas e mais acessíveis. A presença de um core forte também sugere que existem caminhos alternativos para alcançar diversos pontos na rede, o que é ideal para sistemas de mobilidade urbana.
+
+A análise do core/shell confirma que a rede possui uma estrutura central densa e conectada, com nós principais que atuam como hubs de mobilidade. Esses hubs (2-core) seriam ideais para receber infraestrutura adicional, como dock-stations, pois oferecem maior acessibilidade e conectividade na rede. A estrutura periférica (1-shell) poderia ser conectada ou ampliada para melhorar o acesso às áreas menos conectadas, promovendo uma distribuição mais uniforme da mobilidade ao longo do entorno da UFRN.
 
 ## Conclusão
 As análises revelaram a distribuição da mobilidade e conectividade no entorno da UFRN, com bairros como Lagoa Nova e Capim Macio mostrando altos valores de centralidade. Com base nas métricas, identificamos locais potenciais para a instalação de dock-stations de bicicletas compartilhadas, considerando áreas com alta conectividade e proximidade.
