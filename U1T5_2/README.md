@@ -56,9 +56,9 @@ Pontuação de autoridade baseada na pontuação dos vizinhos. Não apenas consi
 ### Requisito 2
 Realizamos a análise dos graus dos nós utilizando gráficos de CDF e PDF, que fornecem informações sobre a distribuição de conexões na rede. A análise foi realizada com a biblioteca Seaborn para visualização. Os gráficos mostram a distribuição dos graus e nos permitem observar a concentração de nós com poucos ou muitos graus.
 
-![Cumulative Density Function](https://github.com/polianaraujo/aed2/blob/7acd2621b8ecd4f82aae876cb91d2e0858c85d33/U1T5_2/Images/cumulative_density_function.png)
+![Cumulative Density Function](https://github.com/polianaraujo/aed2/blob/7acd2621b8ecd4f82aae876cb91d2e0858c85d33/U1T5_2/Images/funcao_densidade_cumulativa.png)
 
-![Probability Density Function](https://github.com/polianaraujo/aed2/blob/7acd2621b8ecd4f82aae876cb91d2e0858c85d33/U1T5_2/Images/probability_density_function.png)
+![Probability Density Function](https://github.com/polianaraujo/aed2/blob/7acd2621b8ecd4f82aae876cb91d2e0858c85d33/U1T5_2/Images/funcao_densidade_probabilidade.png)
 
 ### Requisito 3
 Para observar as relações entre as diferentes métricas, realizamos uma análise multivariada com PairGrid, que permite identificar correlações visuais entre as métricas. Esse processo destaca como as métricas podem estar relacionadas em uma análise conjunta.
