@@ -54,13 +54,19 @@ Pontuação de autoridade baseada na pontuação dos vizinhos. Não apenas consi
 
 
 ### Requisito 2
+Realizamos a análise dos graus dos nós utilizando gráficos de CDF e PDF, que fornecem informações sobre a distribuição de conexões na rede. A análise foi realizada com a biblioteca Seaborn para visualização. Os gráficos mostram a distribuição dos graus e nos permitem observar a concentração de nós com poucos ou muitos graus.
 
 ### Requisito 3
+Para observar as relações entre as diferentes métricas, realizamos uma análise multivariada com PairGrid, que permite identificar correlações visuais entre as métricas. Esse processo destaca como as métricas podem estar relacionadas em uma análise conjunta.
 
 ### Requisito 4
-
 Para identificar e visualizar a estrutura de núcleo (core) e casca (shell) da rede, podemos usar o número do núcleo de cada nó, que é calculado pela função nx.core_number(). O núcleo de um grafo é composto por nós que têm pelo menos um certo número de conexões, enquanto a casca é formada por nós que estão fora do núcleo.
 
 Aqui está um código que utiliza o número do núcleo para separar os nós em diferentes camadas e, em seguida, plota a rede, destacando essas camadas.
 
 o grafo contém laços (self-loops), que não são permitidos ao calcular o número do núcleo em NetworkX. Para resolver esse problema, você precisa remover esses laços do grafo antes de calcular o número do núcleo.
+
+##Conclusão
+As análises revelaram a distribuição da mobilidade e conectividade no entorno da UFRN, com bairros como Lagoa Nova e Capim Macio mostrando altos valores de centralidade. Com base nas métricas, identificamos locais potenciais para a instalação de dock-stations de bicicletas compartilhadas, considerando áreas com alta conectividade e proximidade.
+
+Essa análise é uma base para futuras decisões de mobilidade na região, auxiliando na criação de um sistema de transporte mais integrado e sustentável ao redor da UFRN.
