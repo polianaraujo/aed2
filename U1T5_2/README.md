@@ -119,11 +119,13 @@ A análise multivariada das métricas de centralidade sugere uma rede onde pouco
 ### Requisito 4
 
 1. Core/Shell (k-core):
+A primeira imagem destaca a separação entre o 1-shell (em azul) e o 2-core (em vermelho).   
   * Distribuição: A maior parte dos nós da rede está no 2-core, indicando uma conectividade mais forte e centralizada. Esses nós centrais são mais interligados e formam uma espécie de "esqueleto" da rede, que mantém a estrutura coesa.
   * Periferia (1-shell): Os nós em azul representam os 1-shell, ou seja, aqueles nós que têm menor conectividade e estão mais na periferia da rede. Isso sugere áreas ou pontos da rede com menos conexões diretas, possivelmente indicando ruas menos centrais ou áreas com menor fluxo de mobilidade.
   * Interpretação: Essa estrutura com um núcleo denso e uma periferia menos conectada é comum em redes de mobilidade urbana. O núcleo (2-core) provavelmente representa vias principais e áreas com maior centralidade na mobilidade, enquanto a periferia inclui ruas locais com menos acessibilidade.
 
 2. Padrões Sociais de Grau (Cores de Grau):
+Na segunda imagem, vemos uma visualização colorida que representa diferentes padrões de grau dos nós (número de conexões):
   * Gradiente de Cores: Os nós têm colorações variadas, do azul (graus mais baixos) ao vermelho (graus mais altos), o que permite ver o quão conectados estão os diferentes pontos da rede. As áreas em vermelho indicam regiões com maior número de conexões, possivelmente áreas com maior fluxo e conectividade na mobilidade dos bairros próximos à UFRN.
   * Clusterização de Altos Graus: Nós com graus elevados, destacados em cores mais quentes (próximas do vermelho), provavelmente representam hubs ou pontos centrais na rede de mobilidade, como rotas principais que interconectam diversas áreas.
   * Distribuição do Grau: A variação de cores mostra uma distribuição de grau heterogênea, onde alguns nós possuem muitos vizinhos (conexões), enquanto outros são menos conectados. Essa heterogeneidade é típica de redes de mobilidade, onde algumas ruas ou avenidas concentram mais tráfego e interligam diferentes partes da cidade.
