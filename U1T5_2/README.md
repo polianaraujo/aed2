@@ -17,7 +17,7 @@ O trabalho foi desenvolvido utilizando os dados obtidos dos bairros de Candelár
 
 ![Grafo de Natal](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/rede_natal.png)
 
-### Requisito 1 - Métricas de centralidade
+### Requisito 1
 
 - Centralidade de Grau: 
 Essa métrica vai informar o número de conexões diretas (arestas) que um nó possui, ou seja, é a contagem de vizinhos de um nó. Um nó com um alto grau de centralidade é considerado "importante" porque está diretamente conectado a muitos outros nós.
