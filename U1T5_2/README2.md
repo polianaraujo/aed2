@@ -82,6 +82,7 @@ O grafo obtido mostra que os nós na região nordeste de Lagoa Nova possui os n�
 ### Requisito 2
 
 No primeiro gráfico, temos a Função de Densidade de Probabilidade (PDF) sobreposta ao histograma dos graus dos nós na rede. A PDF mostra a probabilidade de ocorrência de um determinado grau. Observamos que:
+
 * O grau mais frequente na rede é em torno de 6, indicando que a maioria dos nós (ou locais de interseção na rede) tende a ter aproximadamente 6 conexões.
 * Há uma leve assimetria, pois a distribuição tem uma "cauda" à direita, indicando que existem alguns nós com grau superior a 6, embora sejam menos frequentes.
 * Esse pico principal sugere uma conectividade relativamente alta em alguns pontos da rede, o que pode indicar áreas onde há um fluxo significativo de acessos.
