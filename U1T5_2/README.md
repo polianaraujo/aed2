@@ -124,7 +124,7 @@ A análise multivariada das métricas de centralidade sugere uma rede onde pouco
   * Interpretação: Essa estrutura com um núcleo denso e uma periferia menos conectada é comum em redes de mobilidade urbana. O núcleo (2-core) provavelmente representa vias principais e áreas com maior centralidade na mobilidade, enquanto a periferia inclui ruas locais com menos acessibilidade.
 
 2. Padrões Sociais de Grau (Cores de Grau):
-   * Gradiente de Cores: Os nós têm colorações variadas, do azul (graus mais baixos) ao vermelho (graus mais altos), o que permite ver o quão conectados estão os diferentes pontos da rede. As áreas em vermelho indicam regiões com maior número de conexões, possivelmente áreas com maior fluxo e conectividade na mobilidade dos bairros próximos à UFRN.
+  * Gradiente de Cores: Os nós têm colorações variadas, do azul (graus mais baixos) ao vermelho (graus mais altos), o que permite ver o quão conectados estão os diferentes pontos da rede. As áreas em vermelho indicam regiões com maior número de conexões, possivelmente áreas com maior fluxo e conectividade na mobilidade dos bairros próximos à UFRN.
   * Clusterização de Altos Graus: Nós com graus elevados, destacados em cores mais quentes (próximas do vermelho), provavelmente representam hubs ou pontos centrais na rede de mobilidade, como rotas principais que interconectam diversas áreas.
   * Distribuição do Grau: A variação de cores mostra uma distribuição de grau heterogênea, onde alguns nós possuem muitos vizinhos (conexões), enquanto outros são menos conectados. Essa heterogeneidade é típica de redes de mobilidade, onde algumas ruas ou avenidas concentram mais tráfego e interligam diferentes partes da cidade.
 
