@@ -88,6 +88,7 @@ No primeiro gráfico, temos a Função de Densidade de Probabilidade (PDF) sobre
 * Esse pico principal sugere uma conectividade relativamente alta em alguns pontos da rede, o que pode indicar áreas onde há um fluxo significativo de acessos.
 
 O segundo gráfico exibe a Função de Densidade Acumulada (CDF), que mostra a probabilidade acumulada até um determinado grau. Isso permite ver, por exemplo, que:
+
 * Cerca de 80% dos nós têm um grau menor ou igual a 6, confirmando que essa é uma região central da distribuição de graus.
 * A curva da CDF se estabiliza perto de 1 (ou 100%) após o grau 8, o que sugere que poucos nós têm graus superiores a este valor.
 * Esse comportamento acumulativo ajuda a identificar a presença de uma distribuição concentrada, com uma pequena proporção de nós mais conectados que poderiam funcionar como hubs locais na rede.
