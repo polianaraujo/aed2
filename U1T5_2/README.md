@@ -99,7 +99,7 @@ Os resultados sugerem uma estrutura de rede com alta densidade de conexões loca
 
 Esse gráfico de análise multivariada das métricas de centralidade apresenta a distribuição e as relações entre quatro medidas de centralidade (degree, closeness, betweenness e eigenvector) na rede de mobilidade.
 1. Degree Centrality:
-   * O gráfico de densidade (primeira linha e coluna) indica que a maioria dos nós possui valores baixos de grau, o que sugere uma rede dispersa, com poucos nós altamente conectados.
+  * O gráfico de densidade (primeira linha e coluna) indica que a maioria dos nós possui valores baixos de grau, o que sugere uma rede dispersa, com poucos nós altamente conectados.
   * Na análise cruzada, o grau parece ter pouca correlação com as outras métricas de centralidade, exceto uma leve correlação com a intermediação (Betweenness), indicando que nós com um grau maior podem também desempenhar um papel de intermediação, conectando partes diferentes da rede
     
 2. Closeness Centrality:
