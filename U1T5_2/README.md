@@ -99,22 +99,22 @@ Os resultados sugerem uma estrutura de rede com alta densidade de conexões loca
 
 Esse gráfico de análise multivariada das métricas de centralidade apresenta a distribuição e as relações entre quatro medidas de centralidade (degree, closeness, betweenness e eigenvector) na rede de mobilidade.
 1. Degree Centrality:
-  * No histograma da diagonal, a distribuição do grau mostra picos distintos, indicando que a maioria dos nós possui graus específicos, possivelmente alinhados aos padrões de conectividade da rede.
-  * As distribuições nos gráficos de dispersão sugerem que o grau centralidade tem uma correlação limitada com as demais métricas.
+   * O gráfico de densidade (primeira linha e coluna) indica que a maioria dos nós possui valores baixos de grau, o que sugere uma rede dispersa, com poucos nós altamente conectados.
+  * Na análise cruzada, o grau parece ter pouca correlação com as outras métricas de centralidade, exceto uma leve correlação com a intermediação (Betweenness), indicando que nós com um grau maior podem também desempenhar um papel de intermediação, conectando partes diferentes da rede
     
 2. Closeness Centrality:
-  * A distribuição da centralidade de proximidade apresenta uma maior densidade entre os valores de 0,04 e 0,06.
-  * Existe uma correlação positiva entre closeness e degree, o que indica que nós com maior conectividade (grau) também tendem a ter um acesso mais rápido aos demais nós da rede.
-  * A relação entre closeness e betweenness é bem interessante, pois mostra um padrão em que alguns nós com alta proximidade também têm valores mais altos de intermediação (betweenness), sugerindo que esses nós servem como pontos de ligação entre várias partes da rede.
+  * O gráfico de densidade para a proximidade mostra uma concentração em torno de valores intermediários, sugerindo que muitos nós estão a uma distância média dos demais.
+  * A proximidade parece ter alguma correlação com a intermediação (betweenness), mas apresenta uma dispersão significativa quando cruzada com o grau (Degree Centrality) e o autovetor (Eigenvector). Isso pode indicar que estar "perto" de outros nós nem sempre está relacionado a ter um alto grau ou a importância em termos de intermediação.
 
 3. Betweenness Centrality:
-  * A centralidade de intermediação (betweenness) tem uma distribuição com uma densidade maior próxima a valores baixos, sugerindo que a maioria dos nós não está frequentemente em caminhos mais curtos entre outros nós. No entanto, alguns nós com valores de betweenness mais altos parecem desempenhar um papel importante como "hubs" na rede, como visto na correlação com closeness.
+  * A intermediação apresenta uma distribuição altamente concentrada em valores baixos, com alguns picos para valores mais altos, indicando que poucos nós atuam como pontos de passagem principais dentro da rede.
+  * A intermediação possui uma correlação mais clara com a proximidade e uma menor com o autovetor, sugerindo que nós centrais na rede em termos de passagem podem não ser os mais bem conectados (grau) ou importantes em termos de eigenvector.
     
 4. Eigenvector Centrality:
-   * A centralidade de autovetor (eigenvector) também possui uma densidade maior em valores baixos, o que indica que poucos nós têm uma alta centralidade de autovetor. Isso sugere que apenas alguns nós estão conectados a outros nós altamente conectados, sendo estes possivelmente os "nós influentes" ou centrais na rede.
-  * A correlação com degree é notável, onde nós com maior grau tendem a ter uma centralidade de autovetor mais alta, sugerindo que esses nós conectam-se a outros nós importantes.
+  * A centralidade de autovetor também está concentrada em valores baixos, indicando que a maioria dos nós não tem grande importância em termos de influenciar outros nós na rede.
+  * Observa-se uma relação entre o autovetor e a proximidade, indicando que os nós mais influentes estão mais próximos de outros nós na rede.
 
-Essas análises mostram que há uma diversidade de conectividade e influência na rede. Os nós que apresentam alta centralidade em múltiplas métricas (especialmente closeness e betweenness) .... TERMIANR DE ESCREVER
+A análise multivariada das métricas de centralidade sugere uma rede onde poucos nós possuem um papel destacado, seja por conexões (grau), proximidade, intermediação ou influência (autovetor). Esse tipo de estrutura pode indicar áreas específicas com alta importância para a mobilidade, o que é crucial para decidir a localização de dock-stations. A baixa correlação entre algumas métricas sugere que diferentes tipos de centralidade devem ser considerados para garantir a cobertura e acessibilidade na rede de bicicletas.
     
 ### Requisito 4
 
