@@ -13,7 +13,7 @@ Este trabalho teve como objetivo (i) utilizar métricas de centralidade e gerar 
 
 ## Desenvolvimento
 
-O trabalho foi desenvolvido utilizando os dados obtidos dos bairros de Candelária, Capim Macio e Lagoa Nova, retirando a UFRN.
+O trabalho foi desenvolvido utilizando os dados obtidos dos bairros de Candelária, parte de Capim Macio e Lagoa Nova, retirando a UFRN.
 
 ![Grafo de Natal](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/rede_natal.png)
 
@@ -42,9 +42,7 @@ Para observar as relações entre as diferentes métricas, realizamos uma análi
 ### Requisito 4
 Para identificar e visualizar a estrutura de núcleo (core) e casca (shell) da rede, podemos usar o número do núcleo de cada nó, que é calculado pela função nx.core_number(). O núcleo de um grafo é composto por nós que têm pelo menos um certo número de conexões, enquanto a casca é formada por nós que estão fora do núcleo.
 
-Aqui está um código que utiliza o número do núcleo para separar os nós em diferentes camadas e, em seguida, plota a rede, destacando essas camadas.
-
-o grafo contém laços (self-loops), que não são permitidos ao calcular o número do núcleo em NetworkX. Para resolver esse problema, você precisa remover esses laços do grafo antes de calcular o número do núcleo.
+o grafo contém laços (self-loops), que não são permitidos ao calcular o número do núcleo em NetworkX, então é preciso remover esses laços do grafo antes de calcular o número do núcleo.
 
 ## Resultados
 
@@ -112,7 +110,7 @@ Esse gráfico de análise multivariada das métricas de centralidade apresenta a
   * A centralidade de autovetor também está concentrada em valores baixos, indicando que a maioria dos nós não tem grande importância em termos de influenciar outros nós na rede.
   * Observa-se uma relação entre o autovetor e a proximidade, indicando que os nós mais influentes estão mais próximos de outros nós na rede.
 
-A análise multivariada das métricas de centralidade sugere uma rede onde poucos nós possuem um papel destacado, seja por conexões (grau), proximidade, intermediação ou influência (autovetor). Esse tipo de estrutura pode indicar áreas específicas com alta importância para a mobilidade, o que é crucial para decidir a localização de dock-stations. A baixa correlação entre algumas métricas sugere que diferentes tipos de centralidade devem ser considerados para garantir a cobertura e acessibilidade na rede de bicicletas.
+A análise multivariada das métricas de centralidade indica uma rede onde poucos nós possuem um papel destacado, seja por conexões (grau), proximidade, intermediação ou influência (autovetor). Esse tipo de estrutura pode sugerir áreas específicas com alta importância para a mobilidade, o que é crucial para decidir a localização de dock-stations. A baixa correlação entre algumas métricas sugere que diferentes tipos de centralidade devem ser considerados para garantir a cobertura e acessibilidade na rede de bicicletas.
     
 ### Requisito 4
 
@@ -126,7 +124,7 @@ A primeira imagem destaca a separação entre o 1-shell (em azul) e o 2-core (em
 
 2. Padrões Sociais de Grau (Cores de Grau):
 Na segunda imagem, vemos uma visualização colorida que representa diferentes padrões de grau dos nós (número de conexões):
-  * Gradiente de Cores: Os nós têm colorações variadas, do azul (graus mais baixos) ao vermelho (graus mais altos), o que permite ver o quão conectados estão os diferentes pontos da rede. As áreas em vermelho indicam regiões com maior número de conexões, possivelmente áreas com maior fluxo e conectividade na mobilidade dos bairros próximos à UFRN.
+  * Gradiente de Cores: Os nós têm colorações variadas, do azul (graus mais baixos) ao vermelho (graus mais altos), o que permite ver o quão conectados estão os diferentes pontos da rede. As áreas em vermelho sugerem regiões com maior número de conexões, possivelmente áreas com maior fluxo e conectividade na mobilidade dos bairros próximos à UFRN.
   * Clusterização de Altos Graus: Nós com graus elevados, destacados em cores mais quentes (próximas do vermelho), provavelmente representam hubs ou pontos centrais na rede de mobilidade, como rotas principais que interconectam diversas áreas.
   * Distribuição do Grau: A variação de cores mostra uma distribuição de grau heterogênea, onde alguns nós possuem muitos vizinhos (conexões), enquanto outros são menos conectados. Essa heterogeneidade é típica de redes de mobilidade, onde algumas ruas ou avenidas concentram mais tráfego e interligam diferentes partes da cidade.
 
