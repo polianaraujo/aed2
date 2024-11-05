@@ -137,3 +137,7 @@ Essas duas análises juntas sugerem uma rede de mobilidade com uma estrutura cen
 ## Conclusão
 
 Este trabalho permitiu uma compreensão detalhada da mobilidade urbana ao redor da UFRN, revelando a importância de vias centrais para a coesão da rede de transporte nos bairros estudados. Com base nas métricas, identificamos locais potencias para a instalação de dock-stations de bicicletas compartilhadas, considerando áreas com alta conectividade e proximidade. As metodologias aplicadas, envolvendo análise de centralidade e estrutura core/shell, fornecem uma base robusta para futuras análises de mobilidade e planejamento urbano. No futuro, recomenda-se expandir o estudo para incluir dados temporais e informações sobre fluxos de tráfego, o que pode enriquecer a análise e fornecer uma visão ainda mais abrangente da dinâmica de mobilidade nesses bairros.
+
+## Link para a apresentação do código em vídeo
+
+[**Youtube**](https://youtu.be/0u0SlqbS9Vs)
