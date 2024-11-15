@@ -1,11 +1,11 @@
-# Unidade 1 Trabalho 5 - Mobilidade ao entorno da UFRN
+# Unidade 2 Trabalho 1 - Rede de co-autoria com Gephi
 
 ## Alunos:  
 - Maria Clara Moura de Freitas (20230093652)
 - Poliana Ellen de Araújo (20240001289)
 
 ## Objetivo Geral:  
-Este trabalho teve como objetivo (i) utilizar métricas de centralidade e gerar imagens da rede destacadas por elas, (ii) fazer a análise CDF e PDF dos graus dos nós, (iii) fazer uma análise multivariada das métricas de centralidade e (iv) analisar o core/shell da rede.
+Este trabalho teve como objetivo utilizar o Gephi, aplicar os conhecimentos vistos no curso para analisar a rede de co-autoria dos professores permanentes do Programa de Pós-Graduação em Engenharia Elétrica e de Computação (PPgEEC).
 
 <!-- [**Gov**](https://dados.gov.br/dados/conjuntos-dados/medicamentos-registrados-no-brasil) -->
 <!-- [![Botão](https://dummyimage.com/60x20/575757/fff&text=Scopus)](https://www.scopus.com/home.uri?zone=header&origin=) -->
