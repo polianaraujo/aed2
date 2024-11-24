@@ -13,13 +13,16 @@ Este trabalho teve como objetivo utilizar o Gephi, aplicar os conhecimentos vist
 
 ## Desenvolvimento
 
-
-
-<!-- ![Grafo de Natal](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/rede_natal.png) -->
+Para fazer a análise da rede, foi feito o grafo com o Gephi com os dados disponilizados pelo professor. Em seguida foi gerada uma figura destacando o k-core e o k-shell. Por fim, organizar o grafo com diferentes cores para as diferentes comunidades dos dados.
 
 ### Requisito 1
 
-![Logo](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/req1.svg)
+É para gerar 4 grafos?
+
+O grafo da rede foi gerado com o Gephi, aonde o tamanho do vértice é proporcional à quantidade de vizinhos dele. Outra métrica que faria sentido ser o tamanho do vértice seria Eigenvector Centrality (Centralidade de Autovetor).
+Já a métrica que está sendo utilizada para as cores dos nós é a Betweenness Centrality (Centralidade de Intermediação)
+
+![Requisito 1](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/req1.svg)
 
 
 ### Requisito 2
