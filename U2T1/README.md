@@ -19,7 +19,7 @@ Este trabalho teve como objetivo utilizar o Gephi, aplicar os conhecimentos vist
 
 ### Requisito 1
 
-
+![Logo](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/req1.svg)
 
 
 ### Requisito 2
