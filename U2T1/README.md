@@ -63,7 +63,7 @@ Já a métrica que está sendo utilizada para as cores dos nós é a Betweenness
 
 ### Requisito 2
 O segundo requisito envolveu destacar o k-core e o k-shell da rede. O k-core representa subgrafos onde todos os nós têm pelo menos k conexões, enquanto o k-shell é obtido removendo iterativamente vértices com grau menor que k. Os tamanhos dos nós foram definidos como proporcionais ao grau (degree). As cores foram usadas para diferenciar os nós do k-core (vermelho), k-shell (azul) e demais nós (preto).
-
+[K-core e K-shell](https://github.com/polianaraujo/aed2/blob/1aa5a6e4dbb3220154839101ad8d0b29739e26b1/U2T1/Images/requisito2.png)
 
 ### Requisito 3
 Este requisito exigiu a organização do grafo em comunidades, destacadas por cores. Cada comunidade foi identificada por meio de algoritmos específicos no Gephi. O tamanho dos vértices foi ajustado para refletir uma métrica de livre escolha, como o grau ou a centralidade de autovetor.
