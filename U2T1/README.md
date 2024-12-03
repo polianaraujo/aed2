@@ -24,7 +24,7 @@ Já a métrica que está sendo utilizada para as cores dos nós é a Betweenness
 
 ![Degree Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/degree.svg)
 
-![Closeness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/close_grapo.svg)
+![Closeness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/close_grafo.svg)
 
 ![Betweenness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/betweness.svg)
 
