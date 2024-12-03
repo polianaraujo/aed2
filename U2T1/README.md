@@ -23,18 +23,22 @@ Os grafos foram gerado com o Gephi, aonde o tamanho do vértice é proporcional 
 Já a métrica que está sendo utilizada para as cores dos nós é a Betweenness Centrality (Centralidade de Intermediação)
 
 <p align="center">
-  <img src="https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/degree.png" alt="Imagem 1" width="45%" />
-  <img src="https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/closeness.png" alt="Imagem 2" width="45%" />
+  <img src="https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/degree.png" alt="Degree Centrality" width="45%" />
+  <img src="https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/closeness.png" alt="Closeness Centrality" width="45%" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/betweenness.png" alt="Betweenness Centrality" width="45%" />
+  <img src="https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/eigenvector.png" alt="Eigenvector Centrality" width="45%" />
+</p>
 
-![Degree Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/degree.png)
+<!-- ![Degree Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/degree.png)
 
 ![Closeness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/closeness.png)
 
 ![Betweenness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/betweenness.png)
 
-![Eigenvector Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/eigenvector.png)
+![Eigenvector Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/eigenvector.png) -->
 
 ### Requisito 2
 
