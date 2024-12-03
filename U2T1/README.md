@@ -22,13 +22,13 @@ Gerar 4 grafos, utilizando como parâmetro de cor dos nós o (i) Degree Centrali
 Os grafos foram gerado com o Gephi, aonde o tamanho do vértice é proporcional à quantidade de vizinhos dele. Outra métrica que faria sentido ser o tamanho do vértice seria Eigenvector Centrality (Centralidade de Autovetor).
 Já a métrica que está sendo utilizada para as cores dos nós é a Betweenness Centrality (Centralidade de Intermediação)
 
-![Degree Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/degree.svg)
+![Degree Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/degree.png)
 
-![Closeness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/close_grafo.svg)
+![Closeness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/closeness.png)
 
-![Betweenness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/betweness.svg)
+![Betweenness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/betweenness.png)
 
-![Eigenvector Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/eigen.svg)
+![Eigenvector Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/eigenvector.png)
 
 ### Requisito 2
 
