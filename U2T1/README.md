@@ -17,13 +17,18 @@ Para fazer a análise da rede, foi feito o grafo com o Gephi com os dados dispon
 
 ### Requisito 1
 
-É para gerar 4 grafos?
+Gerar 4 grafos, utilizando como parâmetro de cor dos nós o (i) Degree Centrality, (ii) Closeness Centrality, (iii) Betweenness Centrality, (iv) Eigenvector Centrality.
 
-O grafo da rede foi gerado com o Gephi, aonde o tamanho do vértice é proporcional à quantidade de vizinhos dele. Outra métrica que faria sentido ser o tamanho do vértice seria Eigenvector Centrality (Centralidade de Autovetor).
+Os grafos foram gerado com o Gephi, aonde o tamanho do vértice é proporcional à quantidade de vizinhos dele. Outra métrica que faria sentido ser o tamanho do vértice seria Eigenvector Centrality (Centralidade de Autovetor).
 Já a métrica que está sendo utilizada para as cores dos nós é a Betweenness Centrality (Centralidade de Intermediação)
 
-![Requisito 1](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/req1.svg)
+![Degree Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/degree_graph.svg)
 
+![Closeness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/close_graph.svg)
+
+![Betweenness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/betw_graph.svg)
+
+![Eigenvector Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/eight_graph.svg)
 
 ### Requisito 2
 
