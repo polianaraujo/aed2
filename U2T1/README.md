@@ -28,7 +28,7 @@ Já a métrica que está sendo utilizada para as cores dos nós é a Betweenness
 
 ![Betweenness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/betw_graph.svg)
 
-![Eigenvector Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/eight_graph.svg)
+![Eigenvector Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/eigh_graph.svg)
 
 ### Requisito 2
 
