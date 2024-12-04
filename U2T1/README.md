@@ -80,4 +80,4 @@ Com base na análise realizada, foi possível identificar padrões estruturais e
 
 ## Link para a apresentação do código em vídeo
 
-[**Youtube**]()
+[**Youtube**](https://www.youtube.com/watch?v=w4J0FCudlag)
