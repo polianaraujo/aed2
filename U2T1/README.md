@@ -71,6 +71,8 @@ O segundo requisito envolveu destacar o k-core e o k-shell da rede. O k-core rep
 ### Requisito 3
 Este requisito exigiu a organização do grafo em comunidades, destacadas por cores. Cada comunidade foi identificada por meio de algoritmos específicos no Gephi. O tamanho dos vértices foi ajustado para refletir uma métrica de livre escolha, como o grau ou a centralidade de autovetor.
 
+O site da rede pesquisável é está disponível [aqui](https://mclarafreitas.github.io/net-deploy/network/).
+
 ![Rede Pesquisável](https://github.com/polianaraujo/aed2/blob/1aa5a6e4dbb3220154839101ad8d0b29739e26b1/U2T1/Images/site.png)
 
 ## Conclusão
