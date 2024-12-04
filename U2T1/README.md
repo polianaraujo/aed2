@@ -73,7 +73,7 @@ Este requisito exigiu a organização do grafo em comunidades, destacadas por co
 
 O site da rede pesquisável é está disponível [aqui](https://mclarafreitas.github.io/net-deploy/network/).
 
-![Rede Pesquisável](https://github.com/polianaraujo/aed2/blob/1aa5a6e4dbb3220154839101ad8d0b29739e26b1/U2T1/Images/site.png)
+![Rede Pesquisável](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/site.png)
 
 ## Conclusão
 Com base na análise realizada, foi possível identificar padrões estruturais e dinâmicos na rede de co-autoria do PPgEEC. A utilização de métricas de centralidade e o estudo do k-core/k-shell permitiram compreender melhor as interações e a relevância de determinados nós. A detecção de comunidades destacou como os professores estão organizados em subgrupos de colaboração. O trabalho reforça a importância de ferramentas como o Gephi na análise de redes complexas.
