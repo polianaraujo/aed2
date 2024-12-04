@@ -26,8 +26,11 @@ Já a métrica que está sendo utilizada para as cores dos nós é a Betweenness
 |-----------------------------|----------------------------|
 | ![Degree Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/degree.png) | ![Closeness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/closeness.png) |
 
+|     Betweenness Centrality       |    Eigenvector Centrality    |
+|----------------------------------|------------------------------|
+| ![Betweenness Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/betweenness.png) | ![Eigenvector Centrality](https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/eigenvector.png) |
 
-<div align="center">
+<!-- <div align="center">
   <div style="display: inline-block; text-align: center; margin: 10px;">
     <p>Betweenness Centrality</p>
     <img src="https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/betweenness.png" alt="Betweenness Centrality" width="45%" />
@@ -36,8 +39,7 @@ Já a métrica que está sendo utilizada para as cores dos nós é a Betweenness
     <p>Eigenvector Centrality</p>
     <img src="https://github.com/polianaraujo/aed2/blob/main/U2T1/Images/eigenvector.png" alt="Eigenvector Centrality" width="45%" />
   </div>
-</div>
-
+</div> -->
 
 <!--
 <p align="center">
@@ -68,31 +70,8 @@ O segundo requisito envolveu destacar o k-core e o k-shell da rede. O k-core rep
 ### Requisito 3
 Este requisito exigiu a organização do grafo em comunidades, destacadas por cores. Cada comunidade foi identificada por meio de algoritmos específicos no Gephi. O tamanho dos vértices foi ajustado para refletir uma métrica de livre escolha, como o grau ou a centralidade de autovetor.
 
-## Resultados
-
-### Requisito 1
-
-
-<!-- [Centralidade de Grau](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/Centralidade_de_Grau.png) -->
-
-<!-- [Centralidade de Proximidade](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/Centralidade_de_Proximidade.png) -->
-
-<!-- [Centralidade de Intermediação](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/Centralidade_de_Intermediação.png)  -->
-
-<!-- [Centralidade de Autovetor](https://github.com/polianaraujo/aed2/blob/main/U1T5_2/Images/Centralidade_de_Autovetor.png)  -->
-
-### Requisito 2
-
-
-  
-### Requisito 3
-
-
-    
-
 ## Conclusão
 Com base na análise realizada, foi possível identificar padrões estruturais e dinâmicos na rede de co-autoria do PPgEEC. A utilização de métricas de centralidade e o estudo do k-core/k-shell permitiram compreender melhor as interações e a relevância de determinados nós. A detecção de comunidades destacou como os professores estão organizados em subgrupos de colaboração. O trabalho reforça a importância de ferramentas como o Gephi na análise de redes complexas.
-
 
 ## Link para a apresentação do código em vídeo
 
