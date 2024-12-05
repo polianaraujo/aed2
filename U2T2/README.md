@@ -1,4 +1,4 @@
-# Unidade 2 Trabalho 2 - Rede de co-autoria com Gephi
+# Unidade 2 Trabalho 2 - Desempenho de algoritmos
 
 ## Alunos:  
 - Poliana Ellen de Araújo (20240001289)
