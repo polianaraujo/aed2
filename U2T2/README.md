@@ -6,9 +6,9 @@
 ## Objetivo Geral:  
 Avaliar o desempenho de dois algoritmos fornecidos, considerando diversas entradas aleatórias e reproduzíveis, variando o tamanho do vetor de entrada até um valor N grande.
 
-Como avaliar e comparar algoritmos?
-Avaliação manual usando diferentes cenários? Como garantir o mesmo conjunto de entrada?
-Quantos experimentos são necessários para investigar e obter um intervalo de confiança desejado?
+1. Como avaliar e comparar algoritmos?
+2. Avaliação manual usando diferentes cenários? Como garantir o mesmo conjunto de entrada?
+3. Quantos experimentos são necessários para investigar e obter um intervalo de confiança desejado?
 
 ## Desenvolvimento
 
