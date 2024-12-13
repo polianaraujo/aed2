@@ -20,19 +20,14 @@ Avaliar o desempenho de dois algoritmos fornecidos, considerando diversas entrad
   b. Tempo médio de execução (eixo y);
   c. Intervalos de confiança como barras de erro no gráfico.
 
-### Requisito 1
-
-
-
-### Requisito 2
-
-
-<!-- ![K-core e K-shell](https://github.com/polianaraujo/aed2/blob/1aa5a6e4dbb3220154839101ad8d0b29739e26b1/U2T1/Images/requisito2.png) -->
-
 
 ## Conclusão
+
+O gráfico demonstra que o algoritmo FindClosestValue se mostrou bem mais rápido do que o outro, principalmente para tamanho de vetores maiores.
+
+![K-core e K-shell](https://github.com/polianaraujo/aed2/blob/1aa5a6e4dbb3220154839101ad8d0b29739e26b1/U2T2/Images/output.png)
 
 
 ## Link para a apresentação do código em vídeo
 
-[**Youtube**]()
+[**Youtube**](https://youtu.be/51vbhDGvawI)
