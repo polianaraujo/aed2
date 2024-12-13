@@ -1,5 +1,12 @@
+from binarysearchtree import *
 import plotly.graph_objs as go
+import pytest
+import numpy as np
+import matplotlib.pyplot as plt
+from time import time
+from scipy.stats import t
 
+# Classe do Nó
 class Node:
     """
     A class representing a node in a binary search tree.
@@ -21,7 +28,7 @@ class Node:
         self.left_child = None
         self.right_child = None
 
-
+# Classe da Árvore
 class BST:
     """
     A class representing a binary search tree.
@@ -38,16 +45,16 @@ class BST:
 
     def add(self, value):
         """
-        Adds a new node with the given value to the tree.
+        Adiciona um novo nó com o valor dado à árvore.
 
         Args:
-        - value: the value of the node to add
+        - value: o valor do nó que será adicionado.
         """
         if self.root is None:
-            # The root does exist yet, create it
+            # Se a raiz ainda não existe, crie-a
             self.root = Node(value)
         else:
-            # Find the right place and insert new value
+            # Encontre o lugar certo e insira um novo valor
             self._add_recursive(self.root, value)
 
     def _add_recursive(self, current_node, value):
@@ -73,14 +80,14 @@ class BST:
 
     def _contains(self, current_node, value):
         """
-        A helper method to recursively traverse the tree and find the node with the given value.
+        Um método auxiliar para percorrer recursivamente a árvore e encontrar o nó com o valor fornecido.
 
         Args:
-        - current_node: the current node to traverse
-        - value: the value to search for
+        - current_node: o nó atual a ser percorrido
+        - value: o valor a ser procurado
 
         Returns:
-        - True if a node with the given value is found, False otherwise
+        - Verdadeiro se um nó com o valor fornecido for encontrado, Falso caso contrário
         """
         if current_node is None:
             return False
@@ -92,19 +99,19 @@ class BST:
 
     def contains(self, value):
         """
-        Checks whether a node with the given value is present in the tree.
+        Verifica se um nó com o valor fornecido está presente na árvore.
 
         Args:
-        - value: the value to search for
+        - value: o valor procurado.
 
         Returns:
-        - True if a node with the given value is found, False otherwise
+        - Verdadeiro se um nó com o valor fornecido for encontrado, Falso caso contrário
         """
         return self._contains(self.root, value)
 
     def plot(self):
         """
-        Plots the binary search tree using Plotly.
+        Plota a árvore de busca binária usando Plotly.
         """
         if self.root is None:
             print("The tree is empty!")
@@ -114,7 +121,7 @@ class BST:
         node_coords = []
         lines = []
 
-        # Helper function to traverse the tree and fill the coordinate and connection lists
+        # Função auxiliar para percorrer a árvore e preencher as listas de coordenadas e conexões
         def _plot_recursive(node, x, y, offset):
             if node is not None:
                 node_coords.append((x, y, node.value))
@@ -129,10 +136,10 @@ class BST:
                     lines.append((x, y, new_x, new_y))
                     _plot_recursive(node.right_child, new_x, new_y, offset / 2)
 
-        # Traverse the tree starting from the root node
+        # Percorrer a árvore começando pelo nó raiz
         _plot_recursive(self.root, x=0, y=0, offset=0.5)
 
-        # Create a scatter plot for the nodes
+        # Crie um gráfico de dispersão para os nós
         node_trace = go.Scatter(x=[x for x, y, _ in node_coords],
                                 y=[y for _, y, _ in node_coords],
                                 text=[str(val) for _, _, val in node_coords],
@@ -142,13 +149,13 @@ class BST:
                                             size=20,
                                             color='darkblue'))
 
-        # Create a scatter plot for the connections between nodes
+        # Crie um gráfico de dispersão para as conexões entre os nós
         line_trace = go.Scatter(x=sum([[x1, x2, None] for x1, y1, x2, y2 in lines], []),
                                 y=sum([[y1, y2, None] for x1, y1, x2, y2 in lines], []),
                                 mode='lines',
                                 line=dict(color='black'))
 
-        # Combine the two scatter plots
+        # Combine os dois gráficos de dispersão
         layout = go.Layout(title='',
                            xaxis=dict(title='', showgrid=False, zeroline=False, showticklabels=False),
                            yaxis=dict(title='', showgrid=False, zeroline=False, showticklabels=False),
