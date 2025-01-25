@@ -40,6 +40,11 @@ O grafo foi visualizado utilizando ferramentas como NetworkX e Gephi. Além diss
 ## Conclusão
 A análise realizada demonstrou como é possível explorar relações em textos narrativos por meio de técnicas de NLP e teoria de grafos. As redes geradas permitiram identificar as principais entidades e suas interações, fornecendo insights sobre a estrutura das histórias e os papéis desempenhados pelos personagens.
 
+## Formas de executar o código
+
+O código completo está disponível neste repositório do Github. Para executar o código é recomendável usar o Google Colab, que já possui as bibliotecas necessárias. No caso do uso de outro ambiente, talvez seja necessário instalar algumas dessas bibliotecas.
+
+
 ## Links
 Podcast:
 
