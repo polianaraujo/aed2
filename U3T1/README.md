@@ -33,7 +33,7 @@ As redes geradas para os dois textos foram analisadas com base em métricas como
 Observamos diferenças significativas entre as redes, refletindo a variação nos estilos narrativos dos autores e no contexto dos textos.
 
 ### Requisito 5: Visualização e Produção do Grafo
-
+O grafo foi visualizado utilizando ferramentas como NetworkX e Gephi. Além disso, um grafo interativo foi gerado e publicado em uma página web, permitindo a exploração dinâmica das relações entre as entidades extraídas. A visualização interativa foi fundamental para destacar a estrutura da rede e suas propriedades.
 
 
 
