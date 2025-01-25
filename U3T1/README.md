@@ -42,6 +42,7 @@ A análise realizada demonstrou como é possível explorar relações em textos 
 
 ## Links
 Podcast:
+
 Grafo Interativo Pride and Prejudice: https://mclarafreitas.github.io/netdeployu3t1/network/
 
 Grafo Interativo Little Women: https://mclarafreitas.github.io/netdeployu3t1/network2/
