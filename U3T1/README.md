@@ -34,7 +34,7 @@ Observamos diferenças significativas entre as redes, refletindo a variação no
 
 |     Pride and Prejudice     |         Little Women       |
 |-----------------------------|----------------------------|
-| ![PaP Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Images/PaP_graph.png) | ![PaP Graph Ego](https://github.com/polianaraujo/aed2/blob/main/U3T1/Images/PaP_graph_elizab.png) |
+| ![PaP Graph](https://github.com/polianaraujo/aed2/main/U3T1/Images/PaP_graph.png) | ![PaP Graph Ego](https://github.com/polianaraujo/aed2/blob/main/U3T1/Images/PaP_graph_elizab.png) |
 | ![LW Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Images/LW_graph.png) | ![LW Graph Ego](https://github.com/polianaraujo/aed2/blob/main/U3T1/Images/LW_graph_amy.png) |
 
 ### Requisito 5: Visualização e Produção do Grafo
