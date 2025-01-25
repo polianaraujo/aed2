@@ -33,4 +33,10 @@ Realizar a análise de redes baseada em textos utilizando técnicas de processam
 
 ## Link para a apresentação do código em vídeo
 
+## Referências
+https://www.cnnbrasil.com.br/entretenimento/oscar-entenda-as-chances-de-ainda-estou-aqui-e-fernanda-torres-no-premio/
+
+https://www.metropoles.com/entretenimento/cinema/quais-as-reais-chances-de-ainda-estou-aqui-e-fernanda-torres-no-oscar
+
+https://github.com/ivanovitchm/datastructure
 
