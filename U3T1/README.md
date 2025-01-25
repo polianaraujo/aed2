@@ -32,6 +32,11 @@ As redes geradas para os dois textos foram analisadas com base em métricas como
 
 Observamos diferenças significativas entre as redes, refletindo a variação nos estilos narrativos dos autores e no contexto dos textos.
 
+|     Pride and Prejudice     |         Little Women       |
+|-----------------------------|----------------------------|
+| ![PaP Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Images/PaP_graph.png) | ![PaP Graph Ego](https://github.com/polianaraujo/aed2/blob/main/U3T1/Images/PaP_graph_elizab.png) |
+| ![LW Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Images/LW_graph.png) | ![LW Graph Ego](https://github.com/polianaraujo/aed2/blob/main/U3T1/Images/LW_graph_amy.png) |
+
 ### Requisito 5: Visualização e Produção do Grafo
 O grafo foi visualizado utilizando ferramentas como NetworkX e Gephi. Além disso, um grafo interativo foi gerado e publicado em uma página web, permitindo a exploração dinâmica das relações entre as entidades extraídas. A visualização interativa foi fundamental para destacar a estrutura da rede e suas propriedades.
 
