@@ -38,11 +38,12 @@ Observamos diferenças significativas entre as redes, refletindo a variação no
 
 
 ## Conclusão
-
+A análise realizada demonstrou como é possível explorar relações em textos narrativos por meio de técnicas de NLP e teoria de grafos. As redes geradas permitiram identificar as principais entidades e suas interações, fornecendo insights sobre a estrutura das histórias e os papéis desempenhados pelos personagens.
 
 ## Links
 Podcast:
 Grafo Interativo Pride and Prejudice: https://mclarafreitas.github.io/netdeployu3t1/network/
+
 Grafo Interativo Little Women: https://mclarafreitas.github.io/netdeployu3t1/network2/
 
 ## Referências
