@@ -30,6 +30,7 @@ Utilizamos a biblioteca spaCy para realizar a análise de "Part-of-Speech Taggin
 | ['Bingley', 'Lizzy'],                                        | ['Jo', 'Undine'],                |
 | ['Lizzy', 'Jane', 'Lydia'],                                  | ['Faber', 'Amy'],                |
 | ['Bennet', 'Bingley'],                                       | ['Meg', 'Amy'],                  |
+| ...                                                          | ...                              |
 | ```                                                          | ```                              |
 
 
