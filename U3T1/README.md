@@ -18,8 +18,23 @@ Foram selecionados dois livros do acervo do Projeto Gutenberg: "Pride and Prejud
 ### Requisito 2: Análise de PoS Tagging e NER
 Utilizamos a biblioteca spaCy para realizar a análise de "Part-of-Speech Tagging" (PoS Tagging) e "Named Entity Recognition" (NER). Os textos foram tokenizados em sentenças, e as entidades nomeadas classificadas como PERSON, ORG e GPE foram extraídas. Para cada sentença contendo múltiplas entidades, registramos as conexões entre elas. Como resultado, obtivemos listas de relações que alimentaram as próximas etapas da análise.
 
+|                       **NER - Pride and Prejudice**          |     **NER - Little Women**       |
+|--------------------------------------------------------------|----------------------------------|
+| ```python                                                    | ```python                        |
+| ['Netherfield', 'Michaelmas', 'England', 'Long', 'Morris'],  | ['Jo', 'sadly,--'],              |
+| ['Lady Lucas', 'William'],                                   | ['Meg', 'tone,--'],              |
+| ['Bingley', 'Lizzy'],                                        | ['Jo', 'Undine'],                |
+| ['Lizzy', 'Jane', 'Lydia'],                                  | ['Faber', 'Amy'],                |
+| ['Bennet', 'Bingley'],                                       | ['Meg', 'Amy'],                  |
+| ```                                                          | ```                              |
+
+
 ### Requisito 3: Geração de Redes
 Com as relações extraídas, geramos grafos representando as interações entre entidades. Cada entidade foi representada como um nó, e as conexões entre entidades na mesma sentença foram representadas como arestas. A biblioteca NetworkX foi utilizada para manipular os grafos e calcular suas propriedades, como grau dos nós e componentes conexos.
+
+|     Pride and Prejudice     |         Little Women       |
+|-----------------------------|----------------------------|
+| ![PaP Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP_graph.png) | ![LW Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/LW_graph.png) |
 
 ### Requisito 4: Análise da Rede
 As redes geradas para os dois textos foram analisadas com base em métricas como:
@@ -34,7 +49,6 @@ Observamos diferenças significativas entre as redes, refletindo a variação no
 
 |     Pride and Prejudice     |         Little Women       |
 |-----------------------------|----------------------------|
-| ![PaP Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP_graph.png) | ![LW Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/LW_graph.png) |
 | ![PaP Graph Ego](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP_graph_elizab.png) | ![LW Graph Ego](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/LW_graph_amy.png) |
 
 ### Requisito 5: Visualização e Produção do Grafo
