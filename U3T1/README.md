@@ -34,13 +34,15 @@ Observamos diferenças significativas entre as redes, refletindo a variação no
 
 |     Pride and Prejudice     |         Little Women       |
 |-----------------------------|----------------------------|
-| ![PaP Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP_graph.png) | ![PaP Graph Ego](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP_graph_elizab.png) |
-| ![LW Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/LW_graph.png) | ![LW Graph Ego](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/LW_graph_amy.png) |
+| ![PaP Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP_graph.png) | ![LW Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/LW_graph.png) |
+| ![PaP Graph Ego](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP_graph_elizab.png) | ![LW Graph Ego](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/LW_graph_amy.png) |
 
 ### Requisito 5: Visualização e Produção do Grafo
 O grafo foi visualizado utilizando ferramentas como NetworkX e Gephi. Além disso, um grafo interativo foi gerado e publicado em uma página web, permitindo a exploração dinâmica das relações entre as entidades extraídas. A visualização interativa foi fundamental para destacar a estrutura da rede e suas propriedades.
 
-
+|     Pride and Prejudice     |         Little Women       |
+|-----------------------------|----------------------------|
+| ![PaP Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP.png) | ![LW Graph](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP.png) |
 
 ## Conclusão
 A análise realizada demonstrou como é possível explorar relações em textos narrativos por meio de técnicas de NLP e teoria de grafos. As redes geradas permitiram identificar as principais entidades e suas interações, fornecendo insights sobre a estrutura das histórias e os papéis desempenhados pelos personagens.
