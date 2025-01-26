@@ -15,6 +15,10 @@ Realizar a análise de redes baseada em textos utilizando técnicas de processam
 ### Requisito 1: Seleção e Preparação dos Textos
 Foram selecionados dois livros do acervo do Projeto Gutenberg: "Pride and Prejudice" (Jane Austen) e "A Christmas Carol" (Charles Dickens). A partir de cada texto, extraímos fragmentos contendo dois capítulos para simplificar a análise. Após a seleção, realizamos um pré-processamento para remover caracteres indesejados, normalizar espaços e eliminar descrições de imagens.
 
+|                       **Pride and Prejudice**          |     **Little Women**       |
+|--------------------------------------------------------|----------------------------------|
+| ![PaP Book](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP_book.jpg) | ![LW Book](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP_book.jpg) |
+
 ### Requisito 2: Análise de PoS Tagging e NER
 Utilizamos a biblioteca spaCy para realizar a análise de "Part-of-Speech Tagging" (PoS Tagging) e "Named Entity Recognition" (NER). Os textos foram tokenizados em sentenças, e as entidades nomeadas classificadas como PERSON, ORG e GPE foram extraídas. Para cada sentença contendo múltiplas entidades, registramos as conexões entre elas. Como resultado, obtivemos listas de relações que alimentaram as próximas etapas da análise.
 
