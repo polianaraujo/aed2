@@ -17,7 +17,7 @@ Foram selecionados dois livros do acervo do Projeto Gutenberg: "Pride and Prejud
 
 |                       **Pride and Prejudice**          |     **Little Women**       |
 |--------------------------------------------------------|----------------------------------|
-| ![PaP Book](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP_book.jpg) | ![LW Book](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP_book.jpg) |
+| ![PaP Book](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/PaP_book.jpg) | ![LW Book](https://github.com/polianaraujo/aed2/blob/main/U3T1/Imagens/LW_book.jpg) |
 
 ### Requisito 2: Análise de PoS Tagging e NER
 Utilizamos a biblioteca spaCy para realizar a análise de "Part-of-Speech Tagging" (PoS Tagging) e "Named Entity Recognition" (NER). Os textos foram tokenizados em sentenças, e as entidades nomeadas classificadas como PERSON, ORG e GPE foram extraídas. Para cada sentença contendo múltiplas entidades, registramos as conexões entre elas. Como resultado, obtivemos listas de relações que alimentaram as próximas etapas da análise.
