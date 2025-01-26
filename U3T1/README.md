@@ -13,7 +13,7 @@ Realizar a análise de redes baseada em textos utilizando técnicas de processam
 ## Desenvolvimento
 
 ### Requisito 1: Seleção e Preparação dos Textos
-Foram selecionados dois livros do acervo do Projeto Gutenberg: "Pride and Prejudice" (Jane Austen) e "A Christmas Carol" (Charles Dickens). A partir de cada texto, extraímos fragmentos contendo dois capítulos para simplificar a análise. Após a seleção, realizamos um pré-processamento para remover caracteres indesejados, normalizar espaços e eliminar descrições de imagens.
+Foram selecionados dois livros do acervo do Projeto Gutenberg: "Pride and Prejudice" (Jane Austen) e "Little Women" (Luisa May Alcott). A partir de cada texto, extraímos fragmentos contendo dois capítulos para simplificar a análise. Após a seleção, realizamos um pré-processamento para remover caracteres indesejados, normalizar espaços e eliminar descrições de imagens.
 
 |                       **Pride and Prejudice**          |     **Little Women**       |
 |--------------------------------------------------------|----------------------------------|
